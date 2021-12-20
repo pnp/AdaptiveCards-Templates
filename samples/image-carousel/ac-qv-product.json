@@ -39,7 +39,7 @@
                             "type": "Column",
                             "width": "stretch",
                             "backgroundImage": {
-                                "url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWtszY?ver=18ee&q=100&m=6&h=600&w=2048&b=%23FFFFFFFF&l=f&o=t",
+                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/image-carousel/assets/hololens-pic1.jpg",
                                 "horizontalAlignment": "Center"
                             },
                             "minHeight": "240px",
@@ -49,7 +49,7 @@
                             "type": "Column",
                             "width": "56px",
                             "backgroundImage": {
-                                "url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWtpWu?ver=806a&q=100&m=6&h=600&w=2048&b=%23FFFFFFFF&l=f&o=t"
+                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/image-carousel/assets/hololens-pic2.jpg"
                             },
                             "bleed": true,
                             "items": [
@@ -89,7 +89,7 @@
                             "type": "Column",
                             "width": "stretch",
                             "backgroundImage": {
-                                "url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWtpWu?ver=806a&q=100&m=6&h=600&w=2048&b=%23FFFFFFFF&l=f&o=t",
+                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/image-carousel/assets/hololens-pic2.jpg",
                                 "horizontalAlignment": "Center"
                             },
                             "minHeight": "240px",
@@ -99,7 +99,7 @@
                             "type": "Column",
                             "width": "56px",
                             "backgroundImage": {
-                                "url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWtpWx?ver=4b73&q=100&m=6&h=600&w=2048&b=%23FFFFFFFF&l=f&o=t"
+                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/image-carousel/assets/hololens-pic3.jpg"
                             },
                             "bleed": true,
                             "items": [
@@ -140,7 +140,7 @@
                             "type": "Column",
                             "width": "stretch",
                             "backgroundImage": {
-                                "url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWtpWx?ver=4b73&q=100&m=6&h=600&w=2048&b=%23FFFFFFFF&l=f&o=t",
+                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/image-carousel/assets/hololens-pic3.jpg",
                                 "horizontalAlignment": "Center"
                             },
                             "minHeight": "240px",
@@ -150,7 +150,7 @@
                             "type": "Column",
                             "width": "56px",
                             "backgroundImage": {
-                                "url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWtpWA?ver=cbea&q=100&m=6&h=600&w=2048&b=%23FFFFFFFF&l=f&o=t"
+                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/image-carousel/assets/hololens-pic4.jpg"
                             },
                             "bleed": true,
                             "items": [
@@ -191,7 +191,7 @@
                             "type": "Column",
                             "width": "stretch",
                             "backgroundImage": {
-                                "url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWtpWA?ver=cbea&q=100&m=6&h=600&w=2048&b=%23FFFFFFFF&l=f&o=t",
+                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/image-carousel/assets/hololens-pic4.jpg",
                                 "horizontalAlignment": "Center"
                             },
                             "minHeight": "240px",
@@ -201,7 +201,7 @@
                             "type": "Column",
                             "width": "56px",
                             "backgroundImage": {
-                                "url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWtszY?ver=18ee&q=100&m=6&h=600&w=2048&b=%23FFFFFFFF&l=f&o=t"
+                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/image-carousel/assets/hololens-pic1.jpg"
                             },
                             "bleed": true,
                             "items": [
