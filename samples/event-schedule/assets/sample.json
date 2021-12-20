@@ -1,0 +1,50 @@
+[
+  {
+    "name": "pnp-adaptivecards-samples-event-schedule",
+    "source": "pnp",
+    "title": "FAQ Accordion",
+    "shortDescription": "Design to show two day event schedule in a tabs with optionally visible form for the attendee registration.",
+    "url": "https://github.com/pnp/AdaptiveCards-Templates/tree/main/samples/event-schedule",
+    "longDescription": [
+      "Adaptive Card design for listing two day event schedule in a tabs with optionally visible form for the attendee registration."
+    ],
+    "creationDateTime": "2021-20-12",
+    "updateDateTime": "2021-20-12",
+    "products": [
+      "Viva"
+    ],
+    "metadata": [
+    ],
+"tags": [],
+    "categories": [
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/event-schedule/assets/card.png",
+        "alt": "Preview"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "vesajuvonen",
+        "company": "Microsoft",
+        "pictureUrl": "https://avatars.githubusercontent.com/u/7446437?v=4",
+        "name": "Vesa Juvonen"
+      }
+    ],
+    "references": [
+      {
+        "name": "Overview of Viva Connections Extensibility",
+        "description": "Building extensibility for the Microsoft Viva Connections.",
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/viva/overview-viva-connections?WT.mc_id=m365-15741-cxa"
+      },
+      {
+        "name": "Designing Viva Connections custom cards for your dashboard",
+        "description": "Design guidance for the Viva Cards.",
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/viva/design/designing-card?WT.mc_id=m365-15741-cxa"
+      }
+    ]
+  }
+]

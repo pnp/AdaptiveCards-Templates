@@ -18,7 +18,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4IeM6?ver=b4e0&q=90&m=6&h=51&w=51&b=%23FFFFFFFF&l=f&o=t&aim=true"
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/faq-accordion/assets/officelogo.png"
                         },
                         {
                             "type": "TextBlock",
