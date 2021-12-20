@@ -55,7 +55,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_chevron_right_white.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/image-carousel/assets/chevron_right_white.png",
                                     "width": "24px",
                                     "height": "24px"
                                 }
@@ -105,7 +105,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_chevron_right_white.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/image-carousel/assets/chevron_right_white.png",
                                     "width": "24px",
                                     "height": "24px"
                                 }
@@ -156,7 +156,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_chevron_right_white.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/image-carousel/assets/chevron_right_white.png",
                                     "width": "24px",
                                     "height": "24px"
                                 }
@@ -207,7 +207,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_chevron_right_white.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/image-carousel/assets/chevron_right_white.png",
                                     "width": "24px",
                                     "height": "24px"
                                 }
@@ -265,7 +265,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/2141297-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/image-carousel/assets/aim.png",
                                     "horizontalAlignment": "Center",
                                     "width": "40px",
                                     "height": "40px"
@@ -298,7 +298,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/1094225-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/image-carousel/assets/team.png",
                                     "horizontalAlignment": "Center",
                                     "width": "40px",
                                     "height": "40px"
@@ -333,7 +333,7 @@
                                 {
                                     "type": "Image",
                                     "horizontalAlignment": "Center",
-                                    "url": "https://static.thenounproject.com/png/1533698-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/image-carousel/assets/pulp.png",
                                     "width": "40px",
                                     "height": "40px"
                                 },
@@ -367,7 +367,7 @@
                                 {
                                     "type": "Image",
                                     "horizontalAlignment": "Center",
-                                    "url": "https://static.thenounproject.com/png/463091-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/image-carousel/assets/graph.png",
                                     "width": "40px",
                                     "height": "40px"
                                 },
