@@ -2,7 +2,7 @@
 
 ## Summary
 
-Designs for presenting news and company updates with numerous referenced articles or posts.
+Design for presenting news and company updates with numerous referenced articles or posts.
 
 ![picture of the extension in action](assets/card.png)
 
