@@ -16,7 +16,7 @@
         {
             "type": "Container",
             "backgroundImage": {
-                "url": "https://news.microsoft.com/wp-content/uploads/prod/2020/12/hero-image.png",
+                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/benefits/assets/building.png",
                 "horizontalAlignment": "Center",
                 "verticalAlignment": "Center"
             },
@@ -76,7 +76,7 @@
                                     "width": "80px",
                                     "minHeight": "80px",
                                     "backgroundImage": {
-                                        "url": "https://news.microsoft.com/wp-content/uploads/prod/2020/12/18-scaled.jpg"
+                                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/benefits/assets/gym.jpg"
                                     }
                                 }
                             ]
@@ -130,7 +130,7 @@
                             "width": "80px",
                             "minHeight": "80px",
                             "backgroundImage": {
-                                "url": "https://news.microsoft.com/wp-content/uploads/prod/2020/12/2-scaled.jpg"
+                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/benefits/assets/outside.jpg"
                             }
                         }
                     ]
@@ -182,7 +182,7 @@
                                     "width": "80px",
                                     "minHeight": "80px",
                                     "backgroundImage": {
-                                        "url": "https://news.microsoft.com/wp-content/uploads/prod/2020/12/9-2048x1365.jpg"
+                                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/benefits/assets/office.jpg"
                                     }
                                 }
                             ]

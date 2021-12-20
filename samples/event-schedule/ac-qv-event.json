@@ -6,7 +6,7 @@
         {
             "type": "Container",
             "backgroundImage": {
-                "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/Ignite-2021-fall-trim.gif",
+                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/event-schedule/assets/Ignite-2021-fall-trim.gif",
                 "horizontalAlignment": "Center",
                 "verticalAlignment": "Center"
             },
