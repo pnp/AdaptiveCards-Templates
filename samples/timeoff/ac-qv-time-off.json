@@ -7,7 +7,7 @@
             "type": "Container",
             "bleed": true,
             "backgroundImage": {
-                "url": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGxhbmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeline-holidays/assets/photo-1436491865332-7a61a109cc05.jpg",
                 "verticalAlignment": "Bottom",
                 "horizontalAlignment": "Center"
             },
@@ -116,7 +116,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_medical.svg",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeline-holidays/assets/icn_medical.svg",
                                     "width": "20px",
                                     "height": "20px"
                                 }
@@ -178,7 +178,7 @@
                                     "type": "Image",
                                     "width": "20px",
                                     "height": "20px",
-                                    "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_beach.svg"
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeline-holidays/assets/icn_beach.svg"
                                 }
                             ]
                         },
@@ -236,7 +236,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_leaves_two.svg",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeline-holidays/assets/icn_leaves_two.svg",
                                     "width": "20px",
                                     "height": "20px"
                                 }
