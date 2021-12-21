@@ -17,7 +17,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/HealthCenterLogo.png",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/vaccination-booster/assets/HealthCenterLogo.png",
                             "height": "50px",
                             "horizontalAlignment": "Left"
                         }
@@ -41,7 +41,7 @@
         {
             "type": "Container",
             "backgroundImage": {
-                "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/Vaccine_Image.jpeg",
+                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/vaccination-booster/assets/Vaccine_Image.jpeg",
                 "horizontalAlignment": "Center",
                 "verticalAlignment": "Center"
             },
