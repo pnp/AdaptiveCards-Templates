@@ -22,7 +22,7 @@
                 }
             ],
             "backgroundImage": {
-                "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/Praise/Dashboard_Praise_bg.png"
+                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/simple-list/assets/Dashboard_Praise_bg.png"
             }
         },
         {
@@ -51,7 +51,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/Praise/Lee.jpg",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/simple-list/assets/Lee.jpg",
                             "width": "48px",
                             "height": "48px"
                         }
@@ -102,7 +102,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://static.thenounproject.com/png/2623544-200.png",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/simple-list/assets/arrowforward.png",
                             "width": "20px",
                             "height": "20px"
                         }
@@ -122,7 +122,7 @@
                             "type": "Image",
                             "width": "48px",
                             "height": "48px",
-                            "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/Praise/Lidia2.jpg"
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/simple-list/assets/Lidia2.jpg"
                         }
                     ],
                     "width": 8
@@ -167,7 +167,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://static.thenounproject.com/png/2623544-200.png",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/simple-list/assets/arrowforward.png",
                             "width": "20px",
                             "height": "20px"
                         }
@@ -189,7 +189,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/Praise/Lynne.jpg",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/simple-list/assets/Lynne.jpg",
                             "width": "48px",
                             "height": "48px"
                         }
@@ -236,7 +236,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://static.thenounproject.com/png/2623544-200.png",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/simple-list/assets/arrowforward.png",
                             "width": "20px",
                             "height": "20px"
                         }
@@ -272,7 +272,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/Praise/Praise1.jpg"
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/simple-list/assets/Praise1.jpg"
                         },
                         {
                             "type": "TextBlock",
@@ -313,7 +313,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/Praise/Praise2.jpg"
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/simple-list/assets/Praise2.jpg"
                         },
                         {
                             "type": "TextBlock",
