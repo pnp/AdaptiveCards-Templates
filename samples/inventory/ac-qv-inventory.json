@@ -157,7 +157,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_keyboard.svg",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/9f06f6552e9eb40f525ac81ea0e38a79a2239371/samples/inventory/assets/icn_keyboard.svg",
                             "width": "48px",
                             "height": "48px",
                             "horizontalAlignment": "Center"
@@ -217,7 +217,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://static.thenounproject.com/png/2623544-200.png",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/inventory/assets/arrowforward.png",
                             "width": "20px",
                             "height": "20px"
                         }
@@ -241,7 +241,7 @@
                             "width": "48px",
                             "height": "48px",
                             "horizontalAlignment": "Center",
-                            "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_pen.svg"
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/9f06f6552e9eb40f525ac81ea0e38a79a2239371/samples/inventory/assets/icn_pen.svg"
                         }
                     ],
                     "verticalContentAlignment": "Center"
@@ -297,7 +297,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://static.thenounproject.com/png/2623544-200.png",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/inventory/assets/arrowforward.png",
                             "width": "20px",
                             "height": "20px"
                         }
@@ -318,7 +318,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_a11y.svg",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/9f06f6552e9eb40f525ac81ea0e38a79a2239371/samples/inventory/assets/icn_a11y.svg",
                             "width": "48px",
                             "height": "48px",
                             "horizontalAlignment": "Center"
@@ -378,7 +378,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://static.thenounproject.com/png/2623544-200.png",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/inventory/assets/arrowforward.png",
                             "width": "20px",
                             "height": "20px"
                         }
@@ -399,7 +399,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_power.svg",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/9f06f6552e9eb40f525ac81ea0e38a79a2239371/samples/inventory/assets/icn_power.svg",
                             "width": "48px",
                             "height": "48px",
                             "horizontalAlignment": "Center"
@@ -459,7 +459,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://static.thenounproject.com/png/2623544-200.png",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/inventory/assets/arrowforward.png",
                             "width": "20px",
                             "height": "20px"
                         }
@@ -480,7 +480,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_earbuds.svg",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/9f06f6552e9eb40f525ac81ea0e38a79a2239371/samples/inventory/assets/icn_earbuds.svg",
                             "width": "48px",
                             "height": "48px",
                             "horizontalAlignment": "Center"
@@ -540,7 +540,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://static.thenounproject.com/png/2623544-200.png",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/inventory/assets/arrowforward.png",
                             "width": "20px",
                             "height": "20px"
                         }
@@ -564,7 +564,7 @@
                             "width": "48px",
                             "height": "48px",
                             "horizontalAlignment": "Center",
-                            "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_dial.svg"
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/9f06f6552e9eb40f525ac81ea0e38a79a2239371/samples/inventory/assets/icn_dial.svg"
                         }
                     ],
                     "verticalContentAlignment": "Center"
@@ -621,7 +621,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://static.thenounproject.com/png/2623544-200.png",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/inventory/assets/arrowforward.png",
                             "width": "20px",
                             "height": "20px"
                         }
@@ -642,7 +642,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_cover.svg",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/9f06f6552e9eb40f525ac81ea0e38a79a2239371/samples/inventory/assets/icn_cover.svg",
                             "width": "48px",
                             "height": "48px",
                             "horizontalAlignment": "Center"
@@ -702,7 +702,7 @@
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://static.thenounproject.com/png/2623544-200.png",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/inventory/assets/arrowforward.png",
                             "width": "20px",
                             "height": "20px"
                         }
