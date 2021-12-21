@@ -27,7 +27,7 @@
                     "type": "Column",
                     "width": "40px",
                     "backgroundImage": {
-                        "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/timeline_node.svg",
+                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeline-holidays/assets/timeline_node.svg",
                         "horizontalAlignment": "Center",
                         "fillMode": "RepeatVertically"
                     },
@@ -56,7 +56,7 @@
                                 {
                                     "type": "Container",
                                     "backgroundImage": {
-                                        "url": "https://images.unsplash.com/photo-1538883689728-2c32af36a313?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGhhbmtzZ2l2aW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+                                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeline-holidays/assets/photo-1538883689728-2c32af36a313.jpg",
                                         "horizontalAlignment": "Center",
                                         "verticalAlignment": "Center"
                                     },
@@ -100,7 +100,7 @@
                     "type": "Column",
                     "width": "40px",
                     "backgroundImage": {
-                        "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/timeline_node.svg",
+                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeline-holidays/assets/timeline_node.svg",
                         "horizontalAlignment": "Center",
                         "fillMode": "RepeatVertically"
                     },
@@ -164,7 +164,7 @@
                     "type": "Column",
                     "width": "40px",
                     "backgroundImage": {
-                        "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/timeline_node.svg",
+                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeline-holidays/assets/timeline_node.svg",
                         "horizontalAlignment": "Center",
                         "fillMode": "RepeatVertically"
                     },
@@ -242,7 +242,7 @@
                     "type": "Column",
                     "width": "40px",
                     "backgroundImage": {
-                        "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/timeline_node.svg",
+                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeline-holidays/assets/timeline_node.svg",
                         "horizontalAlignment": "Center",
                         "fillMode": "RepeatVertically"
                     },
@@ -305,7 +305,7 @@
                     "type": "Column",
                     "width": "40px",
                     "backgroundImage": {
-                        "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/timeline_node.svg",
+                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeline-holidays/assets/timeline_node.svg",
                         "horizontalAlignment": "Center",
                         "fillMode": "RepeatVertically"
                     },
@@ -383,7 +383,7 @@
                                                                     "items": [
                                                                         {
                                                                             "type": "Image",
-                                                                            "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_beach.svg",
+                                                                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeline-holidays/assets/icn_beach.svg",
                                                                             "width": "20px",
                                                                             "height": "20px"
                                                                         }
