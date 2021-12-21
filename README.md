@@ -1,2 +1,5 @@
-# AdaptiveCards-Templates
-Samples on different adaptive card designs demonstrating the art of possible with it.
+# Adaptive Card templates - design examples
+
+Samples on different Adaptive Card designs demonstrating the art of possible for inspiration and innovation. Shared designs can be used as such or as a starting point for your own designs.
+
+![pic of provided samples](assets/readmeimage.png)

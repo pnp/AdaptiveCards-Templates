@@ -2,7 +2,7 @@
 
 ## Summary
 
-Design for listing two day event schedule in a tabs with optionally visible  form for the attendee registration.
+Design for listing two day event schedule in a tabs with optionally visible form for the attendee registration.
 
 ![picture of the extension in action](assets/card.png)
 
