@@ -5,7 +5,7 @@
             "type": "Container",
             "bleed": true,
             "backgroundImage": {
-                "url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2FmZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
+                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/cafe.jpg"
             },
             "items": [
                 {
@@ -111,7 +111,7 @@
                                         {
                                             "type": "Container",
                                             "backgroundImage": {
-                                                "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/line_pivot_dark.svg",
+                                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/line_pivot_dark.svg",
                                                 "fillMode": "RepeatHorizontally",
                                                 "verticalAlignment": "Center"
                                             },
@@ -138,7 +138,7 @@
                                         {
                                             "type": "Container",
                                             "backgroundImage": {
-                                                "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/line_pivot_dark.svg",
+                                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/line_pivot_dark.svg",
                                                 "fillMode": "RepeatHorizontally",
                                                 "verticalAlignment": "Center"
                                             },
@@ -182,7 +182,7 @@
                                 {
                                     "type": "Container",
                                     "backgroundImage": {
-                                        "url": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8a29yZWFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
+                                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/korean.jpg",
                                         "horizontalAlignment": "Center",
                                         "verticalAlignment": "Center"
                                     },
@@ -222,7 +222,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/2623544-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/arrow-right.png",
                                     "horizontalAlignment": "Right",
                                     "width": "20px",
                                     "height": "20px"
@@ -246,7 +246,7 @@
                                 {
                                     "type": "Container",
                                     "backgroundImage": {
-                                        "url": "https://images.unsplash.com/photo-1626776877184-84cadaef8d09?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZGltJTIwc3VtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
+                                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/dumplings.jpg",
                                         "horizontalAlignment": "Center",
                                         "verticalAlignment": "Center"
                                     },
@@ -286,7 +286,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/2623544-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/arrow-right.png",
                                     "horizontalAlignment": "Right",
                                     "width": "20px",
                                     "height": "20px"
@@ -310,7 +310,7 @@
                                 {
                                     "type": "Container",
                                     "backgroundImage": {
-                                        "url": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kaWFuJTIwZm9vZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
+                                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/tandoori.jpg",
                                         "horizontalAlignment": "Center",
                                         "verticalAlignment": "Center"
                                     },
@@ -350,7 +350,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/2623544-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/arrow-right.png",
                                     "horizontalAlignment": "Right",
                                     "width": "20px",
                                     "height": "20px"
@@ -383,7 +383,7 @@
                                 {
                                     "type": "Container",
                                     "backgroundImage": {
-                                        "url": "https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
+                                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/mixed1st.jpg",
                                         "verticalAlignment": "Center",
                                         "horizontalAlignment": "Center"
                                     },
@@ -423,7 +423,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/2623544-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/arrow-right.png",
                                     "horizontalAlignment": "Right",
                                     "width": "20px",
                                     "height": "20px"
@@ -447,7 +447,7 @@
                                 {
                                     "type": "Container",
                                     "backgroundImage": {
-                                        "url": "https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
+                                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/burgers.jpg",
                                         "horizontalAlignment": "Center",
                                         "verticalAlignment": "Center"
                                     },
@@ -487,7 +487,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/2623544-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/arrow-right.png",
                                     "horizontalAlignment": "Right",
                                     "width": "20px",
                                     "height": "20px"
@@ -511,7 +511,7 @@
                                 {
                                     "type": "Container",
                                     "backgroundImage": {
-                                        "url": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fHNhbGFkfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
+                                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/eggsandwish.jpg",
                                         "horizontalAlignment": "Center",
                                         "verticalAlignment": "Center"
                                     },
@@ -551,7 +551,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/2623544-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/arrow-right.png",
                                     "horizontalAlignment": "Right",
                                     "width": "20px",
                                     "height": "20px"
@@ -575,7 +575,7 @@
                                 {
                                     "type": "Container",
                                     "backgroundImage": {
-                                        "url": "https://images.unsplash.com/photo-1574126154517-d1e0d89ef734?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cGl6emF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60",
+                                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/pizza.jpg",
                                         "verticalAlignment": "Center",
                                         "horizontalAlignment": "Center"
                                     },
@@ -615,7 +615,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/2623544-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/arrow-right.png",
                                     "horizontalAlignment": "Right",
                                     "width": "20px",
                                     "height": "20px"
@@ -657,7 +657,7 @@
                                         {
                                             "type": "Container",
                                             "backgroundImage": {
-                                                "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/line_pivot_dark.svg",
+                                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/line_pivot_dark.svg",
                                                 "fillMode": "RepeatHorizontally",
                                                 "verticalAlignment": "Center"
                                             },
@@ -693,7 +693,7 @@
                                         {
                                             "type": "Container",
                                             "backgroundImage": {
-                                                "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/line_pivot_dark.svg",
+                                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/line_pivot_dark.svg",
                                                 "fillMode": "RepeatHorizontally",
                                                 "verticalAlignment": "Center"
                                             },
@@ -720,7 +720,7 @@
                 {
                     "type": "Container",
                     "backgroundImage": {
-                        "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/graph.gif"
+                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/graph.gif"
                     },
                     "minHeight": "200px"
                 },
@@ -741,7 +741,7 @@
                             "width": "16px",
                             "minHeight": "20px",
                             "backgroundImage": {
-                                "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_hours.svg"
+                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/icn_hours.svg"
                             }
                         },
                         {
@@ -769,7 +769,7 @@
                             "width": "20px",
                             "minHeight": "20px",
                             "backgroundImage": {
-                                "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_location.svg"
+                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/icn_location.svg"
                             }
                         },
                         {
@@ -797,7 +797,7 @@
                             "width": "20px",
                             "minHeight": "20px",
                             "backgroundImage": {
-                                "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_venues.svg"
+                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/icn_venues.svg"
                             }
                         },
                         {
