@@ -2,7 +2,7 @@
 
 ## Summary
 
-Design for a visual list with teh cafeteria scenario details, including two tab presentation
+Design for a visual list with the cafeteria scenario details, including two tab presentation.
 
 ![picture of the extension in action](assets/card.png)
 

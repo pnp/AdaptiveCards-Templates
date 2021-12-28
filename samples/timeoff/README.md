@@ -2,7 +2,7 @@
 
 ## Summary
 
-Design for showing current balance on the time off days and a form to submit a request for a vacation
+Design for showing current balance on the time off days and a form to submit a request for a vacation.
 
 ![picture of the extension in action](assets/card.png)
 

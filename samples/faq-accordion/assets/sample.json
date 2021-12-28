@@ -2,7 +2,7 @@
   {
     "name": "pnp-adaptivecards-samples-faq-accordion",
     "source": "pnp",
-    "title": "FAQ Accordion",
+    "title": "FAQ Accordion Adaptive Card design",
     "shortDescription": "Adaptive Card for showing Frequently Asked Questions in Accordion style.",
     "url": "https://github.com/pnp/AdaptiveCards-Templates/tree/main/samples/faq-accordion",
     "longDescription": [

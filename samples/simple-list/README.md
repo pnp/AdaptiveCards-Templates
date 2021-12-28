@@ -2,7 +2,7 @@
 
 ## Summary
 
-Design for showing simple list of people in prase scenario
+Design for showing simple list of people in prase scenario.
 
 ![picture of the extension in action](assets/card.png)
 

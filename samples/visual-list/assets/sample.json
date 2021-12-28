@@ -1,15 +1,15 @@
 [
   {
-    "name": "pnp-adaptivecards-samples-event-schedule",
+    "name": "pnp-adaptivecards-samples-visual-list",
     "source": "pnp",
-    "title": "Event schedule and registration Adaptive Card design",
-    "shortDescription": "Design to show two day event schedule in a tabs with optionally visible form for the attendee registration.",
-    "url": "https://github.com/pnp/AdaptiveCards-Templates/tree/main/samples/event-schedule",
+    "title": "Visual list with cafeteria menu scenario Adaptive Card Design",
+    "shortDescription": "Design for a visual list with the cafeteria scenario details, including two tab presentation.",
+    "url": "https://github.com/pnp/AdaptiveCards-Templates/tree/main/samples/visual-list",
     "longDescription": [
-      "Adaptive Card design for listing two day event schedule in a tabs with optionally visible form for the attendee registration."
+      "Design for a visual list with the cafeteria scenario details, including two tab presentation."
     ],
-    "creationDateTime": "2021-20-12",
-    "updateDateTime": "2021-20-12",
+    "creationDateTime": "2021-28-12",
+    "updateDateTime": "2021-28-12",
     "products": [
       "Viva"
     ],
@@ -22,7 +22,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/event-schedule/assets/card.png",
+        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/visual-list/assets/card.png",
         "alt": "Preview"
       }
     ],

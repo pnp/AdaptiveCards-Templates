@@ -2,7 +2,7 @@
 
 ## Summary
 
-Design for showing a timeline with upcoming events
+Design for showing a timeline with upcoming events.
 
 ![picture of the extension in action](assets/card.png)
 

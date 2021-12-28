@@ -1,9 +1,9 @@
 [
   {
-    "name": "pnp-adaptivecards-samples-YOUR-SOLUTION-NAME-GOES-HERE",
+    "name": "pnp-adaptivecards-samples-benefits",
     "source": "pnp",
-    "title": "News and article listing",
-    "shortDescription": "DESCRIPTION-GOES-HERE",
+    "title": "News and article listing Adaptive Card design",
+    "shortDescription": "Adaptive Card design for presenting news and company updates with numerous referenced articles or posts.",
     "url": "https://github.com/pnp/AdaptiveCards-Templates/tree/main/samples/benefits",
     "longDescription": [
       "Adaptive Card design for presenting news and company updates with numerous referenced articles or posts."

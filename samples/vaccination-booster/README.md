@@ -2,7 +2,7 @@
 
 ## Summary
 
-Design for booking vaccination booster appointment with images and form
+Design for booking vaccination booster appointment with images and a submission form.
 
 ![picture of the extension in action](assets/card.png)
 

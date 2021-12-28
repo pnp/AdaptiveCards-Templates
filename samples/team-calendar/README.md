@@ -2,7 +2,7 @@
 
 ## Summary
 
-Design for showing calendar format and upcoming team events
+Design for showing calendar format and upcoming team events.
 
 ![picture of the extension in action](assets/card.png)
 
