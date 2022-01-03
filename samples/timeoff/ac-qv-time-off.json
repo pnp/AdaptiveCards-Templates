@@ -7,7 +7,7 @@
             "type": "Container",
             "bleed": true,
             "backgroundImage": {
-                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeline-holidays/assets/plane.jpg",
+                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeoff/assets/plane.jpg",
                 "verticalAlignment": "Bottom",
                 "horizontalAlignment": "Center"
             },
