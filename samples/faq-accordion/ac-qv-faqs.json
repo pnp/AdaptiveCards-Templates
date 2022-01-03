@@ -87,14 +87,14 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/713011-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/faq-accordion/assets/ico-up.png",
                                     "width": "20px",
                                     "height": "20px",
                                     "id": "chevron_up1"
                                 },
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/713007-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/faq-accordion/assets/ico-down.png",
                                     "id": "chevron_down1",
                                     "width": "20px",
                                     "height": "20px",
@@ -141,7 +141,7 @@
                                                 {
                                                     "type": "Image",
                                                     "horizontalAlignment": "Center",
-                                                    "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_home.svg",
+                                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/faq-accordion/assets/icn_home.svg",
                                                     "width": "64px",
                                                     "height": "64px"
                                                 },
@@ -166,7 +166,7 @@
                                             "items": [
                                                 {
                                                     "type": "Image",
-                                                    "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_business.svg",
+                                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/faq-accordion/assets/icn_business.svg",
                                                     "width": "64px",
                                                     "height": "64px",
                                                     "horizontalAlignment": "Center"
@@ -198,7 +198,7 @@
                                             "items": [
                                                 {
                                                     "type": "Image",
-                                                    "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_enterprise.svg",
+                                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/faq-accordion/assets/icn_enterprise.svg",
                                                     "horizontalAlignment": "Center",
                                                     "width": "64px",
                                                     "height": "64px"
@@ -224,7 +224,7 @@
                                             "items": [
                                                 {
                                                     "type": "Image",
-                                                    "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/icn_education.svg",
+                                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/faq-accordion/assets/icn_education.svg",
                                                     "horizontalAlignment": "Center",
                                                     "width": "64px",
                                                     "height": "64px"
@@ -283,7 +283,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/713011-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/faq-accordion/assets/ico-up.png",
                                     "width": "20px",
                                     "height": "20px",
                                     "id": "chevron_up2",
@@ -291,7 +291,7 @@
                                 },
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/713007-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/faq-accordion/assets/ico-down.png",
                                     "id": "chevron_down2",
                                     "width": "20px",
                                     "height": "20px"
@@ -371,7 +371,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/713011-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/faq-accordion/assets/ico-up.png",
                                     "width": "20px",
                                     "height": "20px",
                                     "id": "chevron_up3",
@@ -379,7 +379,7 @@
                                 },
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/713007-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/faq-accordion/assets/ico-down.png",
                                     "id": "chevron_down3",
                                     "width": "20px",
                                     "height": "20px"
@@ -460,7 +460,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/713011-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/faq-accordion/assets/ico-up.png",
                                     "width": "20px",
                                     "height": "20px",
                                     "id": "chevron_up4",
@@ -468,7 +468,7 @@
                                 },
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/713007-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/faq-accordion/assets/ico-down.png",
                                     "id": "chevron_down4",
                                     "width": "20px",
                                     "height": "20px"
@@ -549,7 +549,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/713011-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/faq-accordion/assets/ico-up.png",
                                     "width": "20px",
                                     "height": "20px",
                                     "id": "chevron_up5",
@@ -557,7 +557,7 @@
                                 },
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/713007-200.png",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/faq-accordion/assets/ico-down.png",
                                     "id": "chevron_down5",
                                     "width": "20px",
                                     "height": "20px"
