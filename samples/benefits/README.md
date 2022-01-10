@@ -2,7 +2,7 @@
 
 ## Summary
 
-Design for presenting news and company updates with numerous referenced articles or posts.
+Design for presenting news and company updates with numerous referenced articles or posts. This design is for showcasing quick view design option with the Viva Connections dashboard.
 
 ![picture of the extension in action](assets/card.png)
 
@@ -23,6 +23,29 @@ Version|Date|Comments
 
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+## Minimal Path to Awesome
+
+This design is originally created for Viva Connections Dashboard cards and can be used for story telling with the out of the box **Card designer** card for Viva Connections dashboard.
+
+![picture of the extension in action](assets/dashboard-card.png)
+
+> See more details on the Viva Connections Dashboard capabilities from [Microsoft documentation](https://docs.microsoft.com/en-us/viva/connections/create-dashboard).
+
+Steps to configure this card with *Card designer* as follows:
+
+- Add **Card designer** to the Viva Connections Dashboard
+- **Template Type** - Description
+- **Card size** - Medium
+- **Title** - *Benefits*
+- **Icon** - Icon with the preferred selection
+- **Heading** - *Enroll for 2022*
+- **Description** - *Choose from the latest benefit options*
+- **Card action** - Show the quick view
+- **Primary Button** - Off
+- **Secondary Button** - Off
+- **Template JSON** - Paste in the content of the *ac-qv-benefits.json* file
+- **Data JSON** - *not impactful*
 
 ## Help
 

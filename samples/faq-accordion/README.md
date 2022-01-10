@@ -24,6 +24,32 @@ Version|Date|Comments
 ## Disclaimer
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
+## Minimal Path to Awesome
+
+This design is originally created for Viva Connections Dashboard cards and can be used for story telling with the out of the box **Card designer** card for Viva Connections dashboard.
+
+![picture of the extension in action](assets/dashboard-card.png)
+
+> See more details on the Viva Connections Dashboard capabilities from [Microsoft documentation](https://docs.microsoft.com/en-us/viva/connections/create-dashboard).
+
+Steps to configure this card with *Card designer* as follows:
+
+- Add **Card designer** to the Viva Connections Dashboard
+- **Template Type** - Description
+- **Card size** - Medium
+- **Title** - *Office 365*
+- **Icon** - Custom image - Upload *officelogo.png* from the assets folder
+- **Heading** - *FAQs*
+- **Description** - *Search FAQs and ask community a question*
+- **Card action** - Go to link
+- **Link** - *https://adaptivecards.io/*
+- **Primary Button** - Off
+- **Secondary Button** - On
+- **Title** - *Top 5 questions*
+- **Action** - Show the quick view
+- **Template JSON** - Paste in the content of the *ac-qv-faqs.json* file
+- **Data JSON** - *not impactful*
+
 ## Help
 
 We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.

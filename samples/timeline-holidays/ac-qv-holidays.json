@@ -56,7 +56,7 @@
                                 {
                                     "type": "Container",
                                     "backgroundImage": {
-                                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeline-holidays/assets/photo-1538883689728-2c32af36a313.jpg",
+                                        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeline-holidays/assets/autumn.jpg",
                                         "horizontalAlignment": "Center",
                                         "verticalAlignment": "Center"
                                     },
