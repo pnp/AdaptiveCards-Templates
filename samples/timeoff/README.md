@@ -10,6 +10,16 @@ Design for showing current balance on the time off days and a form to submit a r
 
 ![Adaptive Card Version](https://img.shields.io/badge/Adaptive%20Card%20Version-1.13.0-green.svg)
 
+## Designer
+
+<p>
+    <a href="https://adaptivecards.io/designer/index.html?card=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Ftimeoff%2Fac-qv-time-off.json">
+        <img src="https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/assets/btn-open-in-designer.png" alt="Open in Adaptive Card Designer" />
+    </a>
+</p>
+
+## Solution
+
 Solution|Author(s)
 --------|---------
 event-schedule | Max Kulakov, Microsoft & [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)), Microsoft

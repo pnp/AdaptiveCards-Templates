@@ -24,6 +24,18 @@ Short summary on functionality and used technologies.
 
 ![Adaptive Card Version](https://img.shields.io/badge/Adaptive%20Card%20Version-1.13.0-green.svg)
 
+## Designer
+
+> Update the URL query parameter with the right sample folder and json file name
+
+<p>
+    <a href="https://adaptivecards.io/designer/index.html?card=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Fvisual-list%2Fac-qv-cafe.json">
+        <img src="https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/assets/btn-open-in-designer.png" alt="Open in Adaptive Card Designer" />
+    </a>
+</p>
+
+## Solution
+
 Solution|Author(s)
 --------|---------
 folder name | [Author Name](LinkToYourGitHubProfile) ([@yourtwitterhandle](https://twitter.com/yourtwitterhandle)), Company
