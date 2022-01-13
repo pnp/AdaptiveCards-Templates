@@ -8,7 +8,7 @@ Design for booking vaccination booster appointment with images and a submission 
 
 ## Compatibility
 
-![Adaptive Card Version](https://img.shields.io/badge/Adaptive%20Card%20Version-1.13.0-green.svg)
+![Adaptive Card Version](https://img.shields.io/badge/Adaptive%20Card%20Version-1.3-green.svg)
 
 ## Designer
 
