@@ -1,0 +1,57 @@
+{
+  "distributionCenter": "73",
+  "location": "San Diego, CA",
+  "time": "1.1.2022 11:45 AM",
+  "available":  {
+      "amount":  10.82,
+      "change": 7.4
+  },
+  "ready": {
+      "amount":  0.946000,
+      "change": 3.4
+  },
+  "items": [
+          {
+              "image":"https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/9f06f6552e9eb40f525ac81ea0e38a79a2239371/samples/inventory/assets/icn_keyboard.svg",
+              "name": "Surface Pro Signature Keyboard",
+              "amount": "56k",
+              "change": "+11k"
+          },
+          {
+              "image":"https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/9f06f6552e9eb40f525ac81ea0e38a79a2239371/samples/inventory/assets/icn_pen.svg",
+              "name": "Surface Slim Pen 2",
+              "amount": "4.556k",
+              "change": "-"
+          },
+          {
+              "image":"https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/9f06f6552e9eb40f525ac81ea0e38a79a2239371/samples/inventory/assets/icn_a11y.svg",
+              "name": "Surface Adaptive Kit",
+              "amount": "256k",
+              "change": "+3k"
+          },
+          {
+              "image":"https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/9f06f6552e9eb40f525ac81ea0e38a79a2239371/samples/inventory/assets/icn_power.svg",
+              "name": "Surface 23W USB-C Power Supply",
+              "amount": "750k",
+              "change": "+123k"
+          },
+          {
+              "image":"https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/9f06f6552e9eb40f525ac81ea0e38a79a2239371/samples/inventory/assets/icn_earbuds.svg",
+              "name": "Surface Earbuds",
+              "amount": "1,312k",
+              "change": "+423k"
+          },
+          {
+              "image":"https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/9f06f6552e9eb40f525ac81ea0e38a79a2239371/samples/inventory/assets/icn_cover.svg",
+              "name": "Surface Duo 2 Bumper",
+              "amount": "812k",
+              "change": "+73k"
+          },
+          {
+              "image":"https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/9f06f6552e9eb40f525ac81ea0e38a79a2239371/samples/inventory/assets/icn_dial.svg",
+              "name": "Surface Dial",
+              "amount": "253",
+              "change": "-24k"
+          }
+  ]
+}
