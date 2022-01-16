@@ -70,101 +70,13 @@
                 {
                     "type": "Column",
                     "width": "stretch",
+                    "$data": "${$root.calendar['days']}",
                     "items": [
                         {
                             "type": "TextBlock",
-                            "text": "S",
+                            "text": "${$data}",
                             "wrap": true,
                             "weight": "Bolder",
-                            "isSubtle": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "M",
-                            "wrap": true,
-                            "weight": "Bolder",
-                            "isSubtle": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ],
-                    "width": "stretch"
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "T",
-                            "wrap": true,
-                            "weight": "Bolder",
-                            "isSubtle": true,
-                            "color": "Default",
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "W",
-                            "wrap": true,
-                            "weight": "Bolder",
-                            "color": "Default",
-                            "isSubtle": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "T",
-                            "wrap": true,
-                            "weight": "Bolder",
-                            "color": "Default",
-                            "isSubtle": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "F",
-                            "wrap": true,
-                            "weight": "Bolder",
-                            "color": "Default",
-                            "isSubtle": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "S",
-                            "wrap": true,
-                            "weight": "Bolder",
-                            "color": "Default",
                             "isSubtle": true,
                             "horizontalAlignment": "Center"
                         }
@@ -174,492 +86,42 @@
         },
         {
             "type": "ColumnSet",
+            "$data": "${$root.calendar['rows']}",
             "columns": [
                 {
-                    "type": "Column",
-                    "width": "stretch"
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch"
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch"
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch"
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch"
-                },
-                {
+                    "$data": "${entries}",
                     "type": "Column",
                     "width": "stretch",
                     "items": [
                         {
                             "type": "TextBlock",
-                            "text": "1",
+                            "text": "${day} ",
                             "wrap": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
+                            "horizontalAlignment": "Center",
+                            "$when": "${month == $root.data.currentMonth && !hasAppointments}"
+                        },
                         {
                             "type": "TextBlock",
-                            "text": "2",
+                            "text": "${day} ",
                             "wrap": true,
-                            "isSubtle": false,
-                            "horizontalAlignment": "Center"
+                            "color": "Accent",
+                            "horizontalAlignment": "Center",
+                            "$when": "${month == $root.data.currentMonth && hasAppointments == true}",
+                            "isSubtle": true,
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${day} ",
+                            "wrap": true,
+                            "horizontalAlignment": "Center",
+                            "color": "Light",
+                            "$when": "${month != $root.data.currentMonth}"
                         }
                     ]
                 }
             ],
             "style": "default",
-            "spacing": "Large"
-        },
-        {
-            "type": "ColumnSet",
-            "columns": [
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "3",
-                            "wrap": true,
-                            "isSubtle": false,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "4",
-                            "wrap": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "5",
-                            "wrap": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "6",
-                            "wrap": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "7",
-                            "wrap": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "8",
-                            "wrap": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "9",
-                            "wrap": true,
-                            "isSubtle": false,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                }
-            ],
-            "style": "default",
-            "spacing": "Large"
-        },
-        {
-            "type": "ColumnSet",
-            "columns": [
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "10",
-                            "wrap": true,
-                            "weight": "Default",
-                            "color": "Default",
-                            "isSubtle": false,
-                            "horizontalAlignment": "Center"
-                        }
-                    ],
-                    "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "11",
-                            "wrap": true,
-                            "weight": "Default",
-                            "color": "Default",
-                            "horizontalAlignment": "Center"
-                        }
-                    ],
-                    "horizontalAlignment": "Right"
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "12",
-                            "wrap": true,
-                            "weight": "Default",
-                            "color": "Default",
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "13",
-                            "wrap": true,
-                            "weight": "Default",
-                            "color": "Default",
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "14",
-                            "wrap": true,
-                            "weight": "Default",
-                            "color": "Default",
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "15",
-                            "wrap": true,
-                            "weight": "Default",
-                            "color": "Default",
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "16",
-                            "wrap": true,
-                            "weight": "Default",
-                            "color": "Default",
-                            "isSubtle": false,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                }
-            ],
-            "style": "accent",
-            "height": "stretch",
-            "bleed": true,
-            "spacing": "Medium"
-        },
-        {
-            "type": "ColumnSet",
-            "columns": [
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "17",
-                            "wrap": true,
-                            "color": "Default",
-                            "weight": "Default",
-                            "isSubtle": false,
-                            "horizontalAlignment": "Center"
-                        }
-                    ],
-                    "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "18",
-                            "wrap": true,
-                            "weight": "Default",
-                            "color": "Default",
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "19",
-                            "wrap": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "20",
-                            "wrap": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "21",
-                            "wrap": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "22",
-                            "wrap": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "23",
-                            "wrap": true,
-                            "isSubtle": false,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                }
-            ],
-            "style": "default",
-            "spacing": "Medium"
-        },
-        {
-            "type": "ColumnSet",
-            "columns": [
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "24",
-                            "wrap": true,
-                            "isSubtle": false,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "25",
-                            "wrap": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "26",
-                            "wrap": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "27",
-                            "wrap": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "28",
-                            "wrap": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "29",
-                            "wrap": true,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "30",
-                            "wrap": true,
-                            "isSubtle": false,
-                            "horizontalAlignment": "Center"
-                        }
-                    ]
-                }
-            ],
-            "spacing": "Large"
-        },
-        {
-            "type": "ColumnSet",
-            "columns": [
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "31",
-                            "wrap": true,
-                            "isSubtle": false,
-                            "horizontalAlignment": "Center"
-                        }
-                    ],
-                    "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch"
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch"
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch"
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch"
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch"
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch"
-                }
-            ],
             "spacing": "Large"
         },
         {
@@ -675,7 +137,7 @@
                 },
                 {
                     "type": "TextBlock",
-                    "text": "3 team members are out of office",
+                    "text": "${count($root.data['oof'])} team members are out of office",
                     "wrap": true,
                     "size": "Medium",
                     "weight": "Bolder",
@@ -683,13 +145,14 @@
                 },
                 {
                     "type": "ColumnSet",
+                    "$data": "${$root.data['oof']}",
                     "columns": [
                         {
                             "type": "Column",
                             "items": [
                                 {
                                     "type": "TextBlock",
-                                    "text": "Oct 11-13",
+                                    "text": "${when}",
                                     "wrap": true,
                                     "color": "Default",
                                     "isSubtle": false
@@ -702,63 +165,7 @@
                             "items": [
                                 {
                                     "type": "TextBlock",
-                                    "text": "Lynne on vacation",
-                                    "wrap": true
-                                }
-                            ],
-                            "width": 100
-                        }
-                    ],
-                    "spacing": "Medium"
-                },
-                {
-                    "type": "ColumnSet",
-                    "columns": [
-                        {
-                            "type": "Column",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "Oct 12",
-                                    "wrap": true
-                                }
-                            ],
-                            "width": "80px"
-                        },
-                        {
-                            "type": "Column",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "Lee away for doctor's appointment",
-                                    "wrap": true
-                                }
-                            ],
-                            "width": 100
-                        }
-                    ],
-                    "spacing": "Medium"
-                },
-                {
-                    "type": "ColumnSet",
-                    "columns": [
-                        {
-                            "type": "Column",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "Oct 14",
-                                    "wrap": true
-                                }
-                            ],
-                            "width": "80px"
-                        },
-                        {
-                            "type": "Column",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "Lidia out of office",
+                                    "text": "${who}",
                                     "wrap": true
                                 }
                             ],
@@ -773,13 +180,14 @@
                 },
                 {
                     "type": "TextBlock",
-                    "text": "1 report due",
+                    "text": "${count($root.data['reports'])}  report due",
                     "wrap": true,
                     "weight": "Bolder",
                     "size": "Medium"
                 },
                 {
                     "type": "ColumnSet",
+                    "$data": "${$root.data['reports']}",
                     "columns": [
                         {
                             "type": "Column",
@@ -787,7 +195,7 @@
                             "items": [
                                 {
                                     "type": "TextBlock",
-                                    "text": "Oct 15",
+                                    "text": "${when}",
                                     "wrap": true
                                 }
                             ]
@@ -798,7 +206,7 @@
                             "items": [
                                 {
                                     "type": "TextBlock",
-                                    "text": "Team report due",
+                                    "text": "${what}",
                                     "wrap": true
                                 }
                             ]
