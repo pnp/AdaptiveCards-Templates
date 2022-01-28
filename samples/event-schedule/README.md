@@ -24,13 +24,14 @@ Design for listing two day event schedule in a tabs with optionally visible form
 
 Solution|Author(s)
 --------|---------
-event-schedule | Max Kulakov, Microsoft & [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)), Microsoft
+event-schedule | Max Kulakov (Microsoft), [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)) - Microsoft, [Tim Cadenbach](https://github.com/DeeJayTC) ([@timcadenbach](https://twitter.com/timcadenbach)) - MAXIMAGO
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
 1.0|December 20, 2021|Initial release
+1.1|January 16, 2021|Split to have different template and data files
 
 
 ## Disclaimer
