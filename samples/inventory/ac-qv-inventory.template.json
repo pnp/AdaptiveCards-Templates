@@ -1,0 +1,240 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "Container"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Distribution center #${distributionCenter}",
+            "wrap": true,
+            "weight": "Bolder",
+            "size": "ExtraLarge",
+            "spacing": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": " As of ${formatDateTime(time, 'HH:mm')}  •  ${location}",
+            "wrap": true,
+            "size": "Small",
+            "isSubtle": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 48,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Available",
+                            "wrap": true,
+                            "size": "Small",
+                            "weight": "Bolder",
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${formatNumber(available.amount,2)}M",
+                            "wrap": true,
+                            "size": "ExtraLarge",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "28px",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "\t⬆",
+                                            "wrap": true,
+                                            "color": "Good"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "verticalContentAlignment": "Center",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "+${available.change}%",
+                                            "wrap": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "style": "good",
+                            "spacing": "Medium"
+                        }
+                    ],
+                    "style": "emphasis"
+                },
+                {
+                    "type": "Column",
+                    "width": 4
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Ready to ship",
+                            "wrap": true,
+                            "size": "Small",
+                            "weight": "Bolder",
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${formatNumber(ready.amount,2)}M",
+                            "wrap": true,
+                            "size": "ExtraLarge",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "style": "good",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "28px",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "\t⬆",
+                                            "wrap": true,
+                                            "color": "Good"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${ready.change}%",
+                                            "wrap": true
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center"
+                                }
+                            ],
+                            "spacing": "Medium"
+                        }
+                    ],
+                    "width": 48,
+                    "style": "emphasis"
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Top selling items",
+            "wrap": true,
+            "spacing": "ExtraLarge",
+            "size": "Medium",
+            "weight": "Bolder"
+        },
+        {
+            "type": "Container"
+        },
+        {
+            "type": "ColumnSet",
+            "$data": "${$root.items}",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "50px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "${image}",
+                            "width": "48px",
+                            "height": "48px",
+                            "horizontalAlignment": "Center"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": 75,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${name}",
+                            "wrap": true,
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": 33,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${amount}",
+                                            "wrap": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": 33,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${change}",
+                                            "wrap": true,
+                                            "color": "Good"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": 33
+                                }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": 5,
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/inventory/assets/arrowforward.png",
+                            "width": "20px",
+                            "height": "20px"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "horizontalAlignment": "Right"
+                }
+            ],
+            "spacing": "Medium",
+            "separator": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "View the most popular inventory items ready to ship today. Click item for more details.",
+            "wrap": true,
+            "spacing": "Large"
+        }
+    ]
+}

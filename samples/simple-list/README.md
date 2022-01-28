@@ -13,7 +13,7 @@ Design for showing simple list of people in prase scenario.
 ## Designer
 
 <p>
-    <a href="https://adaptivecards.io/designer/index.html?card=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Fsimple-list%2Fac-qv-praise.json">
+    <a href="https://adaptivecards.io/designer/index.html?card=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Fsimple-list%2Fac-qv-praise.template.json&data=card=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Fsimple-list%2Fac-qv-praise.template.data.json">
         <img src="https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/assets/btn-open-in-designer.png" alt="Open in Adaptive Card Designer" />
     </a>
 </p>

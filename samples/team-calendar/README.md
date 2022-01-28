@@ -13,7 +13,7 @@ Design for showing calendar format and upcoming team events.
 ## Designer
 
 <p>
-    <a href="https://adaptivecards.io/designer/index.html?card=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Fteam-calendar%2Fac-qv-calendar.json">
+    <a href="https://adaptivecards.io/designer/index.html?card=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Fteam-calendar%2Fac-qv-calendar.template.json&data=card=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Fteam-calendar%2Fac-qv-calendar.template.data.json">
         <img src="https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/assets/btn-open-in-designer.png" alt="Open in Adaptive Card Designer" />
     </a>
 </p>

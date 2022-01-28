@@ -1,0 +1,36 @@
+{
+  "anniversaries": [
+    {
+      "image": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/simple-list/assets/Lee.jpg",
+      "name": "Lea Gu",
+      "role": "Marketing Assistant",
+      "when": "1 Year on Oct 10"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/simple-list/assets/Lidia2.jpg",
+      "name": "Lidia Holloway",
+      "role": "Office Planner",
+      "when": "2 years on Oct 15"
+    },
+    {
+      "image": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/simple-list/assets/Lynne.jpg",
+      "name": "Lynne Robbins",
+      "role": "Regional Director",
+      "when": "5 years on Oct 29"
+    }
+  ],
+  "praise": [
+    {
+      "image": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/simple-list/assets/Praise1.jpg",
+      "title": "Achiever",
+      "description":"Kudos to you for not only achieving our quarterly goals and objectives...",
+      "url": ""
+    },
+    {
+      "image": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/simple-list/assets/Praise2.jpg",
+      "title": "Coach",
+      "description":"Thank you for being a great team leader and encouraging us to...",
+      "url": ""
+    }
+  ]
+}

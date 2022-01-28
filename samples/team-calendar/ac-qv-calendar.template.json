@@ -1,0 +1,221 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 26,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "« Previous",
+                            "wrap": true,
+                            "weight": "Bolder",
+                            "size": "Default",
+                            "fontType": "Default",
+                            "color": "Accent",
+                            "isSubtle": false
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": 48,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Oct 2021",
+                            "wrap": true,
+                            "size": "Large",
+                            "fontType": "Default",
+                            "weight": "Bolder",
+                            "color": "Default",
+                            "isSubtle": false,
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": 26,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Next »",
+                            "wrap": true,
+                            "horizontalAlignment": "Right",
+                            "weight": "Bolder",
+                            "fontType": "Default",
+                            "size": "Default",
+                            "color": "Accent"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                }
+            ],
+            "style": "default"
+        },
+        {
+            "type": "Container",
+            "spacing": "Large"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "$data": "${$root.calendar['days']}",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${$data}",
+                            "wrap": true,
+                            "weight": "Bolder",
+                            "isSubtle": true,
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "$data": "${$root.calendar['rows']}",
+            "columns": [
+                {
+                    "$data": "${entries}",
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${day} ",
+                            "wrap": true,
+                            "horizontalAlignment": "Center",
+                            "$when": "${month == $root.data.currentMonth && !hasAppointments}"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${day} ",
+                            "wrap": true,
+                            "color": "Accent",
+                            "horizontalAlignment": "Center",
+                            "$when": "${month == $root.data.currentMonth && hasAppointments == true}",
+                            "isSubtle": true,
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${day} ",
+                            "wrap": true,
+                            "horizontalAlignment": "Center",
+                            "color": "Light",
+                            "$when": "${month != $root.data.currentMonth}"
+                        }
+                    ]
+                }
+            ],
+            "style": "default",
+            "spacing": "Large"
+        },
+        {
+            "type": "Container",
+            "spacing": "Large"
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "Container",
+                    "spacing": "Medium"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "${count($root.data['oof'])} team members are out of office",
+                    "wrap": true,
+                    "size": "Medium",
+                    "weight": "Bolder",
+                    "spacing": "Medium"
+                },
+                {
+                    "type": "ColumnSet",
+                    "$data": "${$root.data['oof']}",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "${when}",
+                                    "wrap": true,
+                                    "color": "Default",
+                                    "isSubtle": false
+                                }
+                            ],
+                            "width": "80px"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "${who}",
+                                    "wrap": true
+                                }
+                            ],
+                            "width": 100
+                        }
+                    ],
+                    "spacing": "Medium"
+                },
+                {
+                    "type": "Container",
+                    "spacing": "Medium"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "${count($root.data['reports'])}  report due",
+                    "wrap": true,
+                    "weight": "Bolder",
+                    "size": "Medium"
+                },
+                {
+                    "type": "ColumnSet",
+                    "$data": "${$root.data['reports']}",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "80px",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "${when}",
+                                    "wrap": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": 100,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "${what}",
+                                    "wrap": true
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "Medium"
+                }
+            ],
+            "style": "emphasis"
+        }
+    ]
+}

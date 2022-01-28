@@ -1,0 +1,296 @@
+{
+	"data": {
+		"currentMonth": 10,
+		"oof": [{
+				"when": "Oct 11-13",
+				"who": "Lynne on Vacation"
+			},
+			{
+				"when": "Oct 12",
+				"who": "Lee away for doctor's appointment"
+			},
+			{
+				"when": "Oct 14",
+				"who": "Lidia out of office"
+			}
+		],
+		"reports": [{
+			"when": "Oct 15",
+			"what": "Team report due"
+		}]
+	},
+	"calendar": {
+		"days": ["S", "M", "T", "W", "T", "F", "S"],
+		"rows": [{
+				"entries": [{
+						"month": 9,
+						"day": 26,
+						"isWeekday": false,
+						"hasAppointments": false
+					},
+					{
+						"month": 9,
+						"day": 27,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 9,
+						"day": 28,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 9,
+						"day": 29,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 9,
+						"day": 30,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 1,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 2,
+						"isWeekday": true,
+						"hasAppointments": false
+					}
+				]
+			},
+			{
+				"entries": [{
+						"month": 10,
+						"day": 3,
+						"isWeekday": false,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 4,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 5,
+						"isWeekday": true,
+						"hasAppointments": true
+					},
+					{
+						"month": 10,
+						"day": 6,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 7,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 8,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 9,
+						"isWeekday": false,
+						"hasAppointments": false
+					}
+				]
+			},
+			{
+				"entries": [{
+						"month": 10,
+						"day": 10,
+						"isWeekday": false,
+						"hasAppointments": true
+					},
+					{
+						"month": 10,
+						"day": 11,
+						"isWeekday": true,
+						"hasAppointments": true
+					},
+					{
+						"month": 10,
+						"day": 12,
+						"isWeekday": true,
+						"hasAppointments": true
+					},
+					{
+						"month": 10,
+						"day": 13,
+						"isWeekday": true,
+						"hasAppointments": true
+					},
+					{
+						"month": 10,
+						"day": 14,
+						"isWeekday": true,
+						"hasAppointments": true
+					},
+					{
+						"month": 10,
+						"day": 15,
+						"isWeekday": true,
+						"hasAppointments": true
+					},
+					{
+						"month": 10,
+						"day": 16,
+						"isWeekday": false,
+						"hasAppointments": true
+					}
+				]
+			},
+			{
+				"entries": [{
+						"month": 10,
+						"day": 17,
+						"isWeekday": false,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 18,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 19,
+						"isWeekday": true,
+						"hasAppointments": true
+					},
+					{
+						"month": 10,
+						"day": 20,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 21,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 22,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 23,
+						"isWeekday": false,
+						"hasAppointments": false
+					}
+				]
+			},
+			{
+				"entries": [{
+						"month": 10,
+						"day": 24,
+						"isWeekday": false,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 25,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 26,
+						"isWeekday": true,
+						"hasAppointments": true
+					},
+					{
+						"month": 10,
+						"day": 27,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 28,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 29,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 30,
+						"isWeekday": false,
+						"hasAppointments": false
+					}
+				]
+			},
+			{
+				"entries": [{
+						"month": 10,
+						"day": 31,
+						"isWeekday": false,
+						"hasAppointments": false
+					},
+					{
+						"month": 11,
+						"day": 1,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 2,
+						"isWeekday": true,
+						"hasAppointments": true
+					},
+					{
+						"month": 10,
+						"day": 3,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 4,
+						"isWeekday": true,
+						"hasAppointments": false
+					},
+					{
+						"month": 10,
+						"day": 5,
+						"isWeekday": true,
+						"hasAppointments": true
+					},
+					{
+						"month": 10,
+						"day": 6,
+						"isWeekday": false,
+						"hasAppointments": false
+					}
+				]
+			}
+		]
+	}
+}
