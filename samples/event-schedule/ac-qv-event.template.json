@@ -94,7 +94,7 @@
                             "type": "Column",
                             "width": "stretch",
                             "backgroundImage": {
-                                "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/line_pivot_dark.svg",
+                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/event-schedule/assets/line_pivot_dark.svg",
                                 "fillMode": "RepeatHorizontally",
                                 "verticalAlignment": "Center"
                             },
@@ -225,7 +225,7 @@
                             "backgroundImage": {
                                 "fillMode": "RepeatHorizontally",
                                 "verticalAlignment": "Center",
-                                "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/line_pivot_dark.svg"
+                                "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/event-schedule/assets/line_pivot_dark.svg"
                             }
                         }
                     ],

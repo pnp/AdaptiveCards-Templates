@@ -30,7 +30,7 @@
             "items": [
                 {
                     "type": "Image",
-                    "url": "https://microsoft.sharepoint-df.com/teams/max2/SiteAssets/Quick%20views/img_spacer.png"
+                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/payslip/assets/img_spacer.png"
                 },
                 {
                     "type": "TextBlock",
