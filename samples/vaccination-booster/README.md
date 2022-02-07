@@ -22,7 +22,7 @@ Design for booking vaccination booster appointment with images and a submission 
 
 Solution|Author(s)
 --------|---------
-event-schedule | Max Kulakov, Microsoft & [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)), Microsoft
+vaccination-booster | Max Kulakov, Microsoft & [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)), Microsoft
 
 ## Version history
 

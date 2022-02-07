@@ -22,7 +22,7 @@ Design for showing current balance on the time off days and a form to submit a r
 
 Solution|Author(s)
 --------|---------
-event-schedule | Max Kulakov, Microsoft & [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)), Microsoft
+timeoff | Max Kulakov, Microsoft & [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)), Microsoft
 
 ## Version history
 

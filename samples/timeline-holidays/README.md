@@ -22,7 +22,7 @@ Design for showing a timeline with upcoming events.
 
 Solution|Author(s)
 --------|---------
-event-schedule | Max Kulakov, Microsoft & [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)), Microsoft
+timeline-holidays | Max Kulakov, Microsoft & [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)), Microsoft
 
 ## Version history
 

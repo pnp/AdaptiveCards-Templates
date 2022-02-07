@@ -22,7 +22,7 @@ Design for a visual list with the cafeteria scenario details, including two tab 
 
 Solution|Author(s)
 --------|---------
-event-schedule | Max Kulakov, Microsoft & [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)), Microsoft
+visual-list | Max Kulakov, Microsoft & [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)), Microsoft
 
 ## Version history
 

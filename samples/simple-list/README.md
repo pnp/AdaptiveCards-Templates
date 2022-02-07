@@ -22,7 +22,7 @@ Design for showing simple list of people in prase scenario.
 
 Solution|Author(s)
 --------|---------
-event-schedule | Max Kulakov (Microsoft), [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)) - Microsoft, [Tim Cadenbach](https://github.com/DeeJayTC) ([@timcadenbach](https://twitter.com/timcadenbach)) - MAXIMAGO
+simple-list | Max Kulakov (Microsoft), [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)) - Microsoft, [Tim Cadenbach](https://github.com/DeeJayTC) ([@timcadenbach](https://twitter.com/timcadenbach)) - MAXIMAGO
 
 ## Version history
 

@@ -22,7 +22,7 @@ Design for presenting inventory details from warehouse
 
 Solution|Author(s)
 --------|---------
-event-schedule | Max Kulakov (Microsoft), [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)) - Microsoft, [Tim Cadenbach](https://github.com/DeeJayTC) ([@timcadenbach](https://twitter.com/timcadenbach)) - MAXIMAGO
+inventory | Max Kulakov (Microsoft), [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)) - Microsoft, [Tim Cadenbach](https://github.com/DeeJayTC) ([@timcadenbach](https://twitter.com/timcadenbach)) - MAXIMAGO
 
 ## Version history
 

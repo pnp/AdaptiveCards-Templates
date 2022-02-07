@@ -22,7 +22,7 @@ Design for showing calendar format and upcoming team events.
 
 Solution|Author(s)
 --------|---------
-event-schedule | Max Kulakov (Microsoft), [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)) - Microsoft, [Tim Cadenbach](https://github.com/DeeJayTC) ([@timcadenbach](https://twitter.com/timcadenbach)) - MAXIMAGO
+team-calendar | Max Kulakov (Microsoft), [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)) - Microsoft, [Tim Cadenbach](https://github.com/DeeJayTC) ([@timcadenbach](https://twitter.com/timcadenbach)) - MAXIMAGO
 
 ## Version history
 
