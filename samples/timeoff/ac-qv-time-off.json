@@ -116,7 +116,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeline-holidays/assets/icn_medical.svg",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeoff/assets/icn_medical.svg",
                                     "width": "20px",
                                     "height": "20px"
                                 }
@@ -178,7 +178,7 @@
                                     "type": "Image",
                                     "width": "20px",
                                     "height": "20px",
-                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeline-holidays/assets/icn_beach.svg"
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeoff/assets/icn_beach.svg"
                                 }
                             ]
                         },
@@ -236,7 +236,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeline-holidays/assets/icn_leaves_two.svg",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/timeoff/assets/icn_leaves_two.svg",
                                     "width": "20px",
                                     "height": "20px"
                                 }
