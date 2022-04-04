@@ -18,6 +18,10 @@
 "tags": [],
     "categories": [
     ],
+    "preview": {
+      "label": "Open in Designer",
+      "url": "https://adaptivecards.io/designer/index.html?card=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Fbenefits%2Fac-qv-benefits.json"
+    },
     "thumbnails": [
       {
         "type": "image",
