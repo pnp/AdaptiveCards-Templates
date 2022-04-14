@@ -1,0 +1,68 @@
+[
+  {
+    "name": "pnp-adaptivecards-samples-help-desk",
+    "source": "pnp",
+    "title": "Help Desk scenario Adaptive Card designs",
+    "shortDescription": "Design to show demonstrate typical help desk scenarios for creating and then handling tickets.",
+    "url": "https://github.com/pnp/AdaptiveCards-Templates/tree/main/samples/help-desk",
+    "longDescription": [
+      "Designs for creating new help desk tickets and to start processing them from the queue using Viva Cards. Three separate quick view designs."
+    ],
+    "creationDateTime": "2022-04-14",
+    "updateDateTime": "2022-04-14",
+    "products": [
+      "Viva"
+    ],
+    "metadata": [
+    ],
+"tags": [],
+    "categories": [
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/help-desk/assets/create-ticket-quick-view.png",
+        "alt": "Creating a ticket"
+      },
+      {
+        "type": "image",
+        "order": 200,
+        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/help-desk/assets/tickets-list-quick-view.png",
+        "alt": "List tickets"
+      },
+      {
+        "type": "image",
+        "order": 300,
+        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/help-desk/assets/incident-details-quick-view.png",
+        "alt": "Details on one ticket"
+      },
+      {
+        "type": "image",
+        "order": 400,
+        "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/help-desk/assets/cards.png",
+        "alt": "Cards"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "vesajuvonen",
+        "company": "Microsoft",
+        "pictureUrl": "https://avatars.githubusercontent.com/u/7446437?v=4",
+        "name": "Vesa Juvonen"
+      }
+    ],
+    "references": [
+      {
+        "name": "Overview of Viva Connections Extensibility",
+        "description": "Building extensibility for the Microsoft Viva Connections.",
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/viva/overview-viva-connections?WT.mc_id=m365-15741-cxa"
+      },
+      {
+        "name": "Designing Viva Connections custom cards for your dashboard",
+        "description": "Design guidance for the Viva Cards.",
+        "url": "https://docs.microsoft.com/en-us/sharepoint/dev/spfx/viva/design/designing-card?WT.mc_id=m365-15741-cxa"
+      }
+    ]
+  }
+]
