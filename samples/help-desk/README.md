@@ -52,7 +52,7 @@ Designs for creating new help desk tickets and to start processing them from the
 
 Solution|Author(s)
 --------|---------
-help-desk | Max Kulakov (Microsoft), Cathrine Chuaga(Microsoft), [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)) - Microsoft
+help-desk | Max Kulakov (Microsoft), Cathrine Chuaga (Microsoft), [Vesa Juvonen](https://github.com/vesajuvonen) ([@vesajuvonen](https://twitter.com/vesajuvonen)) - Microsoft
 
 ## Version history
 
