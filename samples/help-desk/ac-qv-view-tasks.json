@@ -1,0 +1,253 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "size": "Default",
+                    "weight": "Default",
+                    "text": "3 tasks are pending",
+                    "horizontalAlignment": "Center"
+                }
+            ],
+            "bleed": true,
+            "style": "accent"
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Review the following tasks and approve or reject these requests before the due date.",
+                    "wrap": true,
+                    "spacing": "Medium"
+                }
+            ],
+            "spacing": "Medium"
+        },
+        {
+            "type": "Container",
+            "spacing": "Large",
+            "style": "emphasis",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Opened: 12-Feb-2022",
+                                    "wrap": true,
+                                    "size": "Small",
+                                    "isSubtle": true,
+                                    "weight": "Bolder",
+                                    "color": "Attention"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Incident INC00000001",
+                                    "wrap": true,
+                                    "size": "Medium",
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "ColumnSet",
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "width": "32px",
+                                            "items": [
+                                                {
+                                                    "type": "Image",
+                                                    "url": "https://microsoft.sharepoint-df.com/teams/max2/SiteAssets/People/Lee.png"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "width": "stretch",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Lee Gu",
+                                                    "wrap": true
+                                                }
+                                            ],
+                                            "verticalContentAlignment": "Center"
+                                        }
+                                    ],
+                                    "spacing": "Medium"
+                                }
+                            ],
+                            "width": "stretch"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "url": "https://static.thenounproject.com/png/2623544-200.png"
+                                }
+                            ],
+                            "horizontalAlignment": "Right",
+                            "verticalContentAlignment": "Center",
+                            "width": "16px"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "spacing": "Large",
+            "style": "emphasis",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Opened : 24-Mar-2022",
+                                    "wrap": true,
+                                    "horizontalAlignment": "Left",
+                                    "size": "Small",
+                                    "color": "Default",
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Request REQ0000002",
+                                    "wrap": true,
+                                    "size": "Medium",
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "ColumnSet",
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "width": "32px",
+                                            "items": [
+                                                {
+                                                    "type": "Image",
+                                                    "url": "https://microsoft.sharepoint-df.com/teams/max2/SiteAssets/People/Patti.png"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "width": "stretch",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Lidia Holloway",
+                                                    "wrap": true
+                                                }
+                                            ],
+                                            "verticalContentAlignment": "Center"
+                                        }
+                                    ],
+                                    "spacing": "Medium"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "16px",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "url": "https://static.thenounproject.com/png/2623544-200.png"
+                                }
+                            ],
+                            "verticalContentAlignment": "Center"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "spacing": "Large",
+            "style": "emphasis",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Opened: 2-Apr- 2022",
+                                    "wrap": true,
+                                    "size": "Small",
+                                    "horizontalAlignment": "Left",
+                                    "weight": "Bolder",
+                                    "color": "Default"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Request REQ0000003",
+                                    "wrap": true,
+                                    "size": "Medium",
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "ColumnSet",
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "width": "32px",
+                                            "items": [
+                                                {
+                                                    "type": "Image",
+                                                    "url": "https://microsoft.sharepoint-df.com/teams/max2/SiteAssets/People/Lynne.png"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "width": "stretch",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "\nLynne Robbins",
+                                                    "wrap": true
+                                                }
+                                            ],
+                                            "verticalContentAlignment": "Center"
+                                        }
+                                    ],
+                                    "spacing": "Medium"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "16px",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "url": "https://static.thenounproject.com/png/2623544-200.png"
+                                }
+                            ],
+                            "verticalContentAlignment": "Center"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3"
+}

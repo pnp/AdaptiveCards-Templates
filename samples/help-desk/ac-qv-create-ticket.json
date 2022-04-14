@@ -1,0 +1,331 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "size": "Medium",
+                    "weight": "Bolder",
+                    "text": "Create a help ticket"
+                }
+            ],
+            "style": "emphasis",
+            "bleed": true,
+            "horizontalAlignment": "Center"
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Request/Incident number",
+                    "wrap": true,
+                    "weight": "Bolder"
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "INC97392",
+            "wrap": true,
+            "spacing": "Small"
+        },
+        {
+            "type": "Container",
+            "spacing": "Large",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Raised by",
+                    "wrap": true,
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "24px",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "style": "Person",
+                                    "url": "https://microsoft.sharepoint-df.com/_api/v2.1/shares/u!aHR0cHM6Ly9taWNyb3NvZnQuc2hhcmVwb2ludC1kZi5jb20vdGVhbXMvTUVFRGVtby9TaXRlQXNzZXRzL0Rhc2hib2FyZC9QcmFpc2UvTGVlLmpwZw/driveItem/thumbnails/0/c400x99999/content?preferNoRedirect=true&prefer=extendCacheMaxAge&clientType=modernWebPart",
+                                    "size": "Small"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "weight": "Default",
+                                    "text": "Lee Gu",
+                                    "wrap": true
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "Small"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "spacing": "Large",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Opened",
+                    "wrap": true,
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "March 12, 2022",
+                    "wrap": true,
+                    "spacing": "Small"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "spacing": "Large",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Category",
+                    "wrap": true,
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "Input.ChoiceSet",
+                    "choices": [
+                        {
+                            "title": "IT Request",
+                            "value": "IT Request"
+                        },
+                        {
+                            "title": "Incident Reporting",
+                            "value": "Incident Reporting"
+                        }
+                    ],
+                    "placeholder": "Choose a category",
+                    "spacing": "Small",
+                    "id": "01"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "spacing": "Large",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Urgency",
+                    "wrap": true,
+                    "weight": "Bolder"
+                }
+            ]
+        },
+        {
+            "type": "Input.ChoiceSet",
+            "choices": [
+                {
+                    "title": "Low",
+                    "value": "Low"
+                },
+                {
+                    "title": "Medium",
+                    "value": "Medium"
+                },
+                {
+                    "title": "High",
+                    "value": "High"
+                }
+            ],
+            "placeholder": "Choose an option",
+            "id": "02",
+            "spacing": "Small"
+        },
+        {
+            "type": "Container",
+            "spacing": "Large",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "State",
+                    "wrap": true,
+                    "weight": "Bolder"
+                }
+            ]
+        },
+        {
+            "type": "Input.ChoiceSet",
+            "choices": [
+                {
+                    "title": "New",
+                    "value": "New"
+                }
+            ],
+            "placeholder": "Placeholder text",
+            "spacing": "Small",
+            "value": "New",
+            "id": "03"
+        },
+        {
+            "type": "Container",
+            "spacing": "Large",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Short description (Max 300 characters)",
+                    "wrap": true,
+                    "weight": "Bolder"
+                }
+            ]
+        },
+        {
+            "type": "Input.Text",
+            "placeholder": "Placeholder text",
+            "isMultiline": true,
+            "spacing": "Small",
+            "id": "04",
+            "maxLength": 300
+        },
+        {
+            "type": "Container",
+            "spacing": "Large",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Tell us your location",
+                    "wrap": true,
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "16px",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "url": "https://microsoft.sharepoint-df.com/teams/max2/SiteAssets/Images/AddIcon.svg"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Add a location",
+                                    "wrap": true,
+                                    "weight": "Default",
+                                    "color": "Accent",
+                                    "spacing": "Small"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "spacing": "Large",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Upload Image",
+                            "wrap": true,
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "16px",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://microsoft.sharepoint-df.com/teams/max2/SiteAssets/Images/AddIcon.svg"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Add an image",
+                                            "wrap": true,
+                                            "spacing": "Small",
+                                            "color": "Accent"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Container",
+                            "spacing": "Large",
+                            "style": "emphasis",
+                            "bleed": true,
+                            "items": [
+                                {
+                                    "type": "ColumnSet",
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "width": "stretch",
+                                            "items": [
+                                                {
+                                                    "type": "ActionSet",
+                                                    "actions": [
+                                                        {
+                                                            "type": "Action.Submit",
+                                                            "title": "Discard",
+                                                            "style": "destructive"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "width": "stretch",
+                                            "spacing": "Medium",
+                                            "items": [
+                                                {
+                                                    "type": "ActionSet",
+                                                    "actions": [
+                                                        {
+                                                            "type": "Action.Submit",
+                                                            "title": "Submit",
+                                                            "style": "positive"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3"
+}

@@ -1,0 +1,236 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "spacing": "Large",
+            "style": "default",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": 75,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Incident INC00000001",
+                                    "wrap": true,
+                                    "size": "Medium",
+                                    "weight": "Bolder"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": 30,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Created by",
+                                            "wrap": true,
+                                            "weight": "Bolder"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": 70,
+                                    "items": [
+                                        {
+                                            "type": "ColumnSet",
+                                            "columns": [
+                                                {
+                                                    "type": "Column",
+                                                    "width": "32px",
+                                                    "items": [
+                                                        {
+                                                            "type": "Image",
+                                                            "url": "https://microsoft.sharepoint-df.com/teams/MEEDemo/SiteAssets/Dashboard/Praise/Lee.jpg"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Column",
+                                                    "width": "stretch",
+                                                    "items": [
+                                                        {
+                                                            "type": "TextBlock",
+                                                            "text": "Lee Gu",
+                                                            "wrap": true
+                                                        }
+                                                    ],
+                                                    "verticalContentAlignment": "Center"
+                                                }
+                                            ],
+                                            "spacing": "Medium"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": 30,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Opened",
+                                            "wrap": true,
+                                            "weight": "Bolder"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": 70,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "12-Feb-2022",
+                                            "wrap": true,
+                                            "size": "Default",
+                                            "isSubtle": false,
+                                            "color": "Attention",
+                                            "weight": "Bolder"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Large"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": 30,
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Description",
+                                            "wrap": true,
+                                            "weight": "Bolder"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "My laptop is displaying a blue screen. I received the update and restart computer alert and I initiated the updates. The laptop has not been able to restart since then. I am unable to attend do my work . Can I please get support ASAP.",
+                                            "wrap": true,
+                                            "spacing": "Medium"
+                                        }
+                                    ],
+                                    "width": 70
+                                }
+                            ],
+                            "spacing": "Large"
+                        }
+                    ],
+                    "spacing": "Large"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": 30,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Documents",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": 70,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Document 1.docx",
+                                    "wrap": true,
+                                    "color": "Accent"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Image 1.png",
+                                    "wrap": true,
+                                    "color": "Accent"
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "ExtraLarge"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 30,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Location",
+                            "wrap": true,
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": 70,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "34/137, Redmond, WA",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Submit",
+                    "title": "Get Directions",
+                    "style": "positive"
+                },
+                {
+                    "type": "Action.Submit",
+                    "title": "Upload Image"
+                },
+                {
+                    "type": "Action.Submit",
+                    "title": "Close Ticket"
+                }
+            ],
+            "spacing": "Large"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3"
+}
