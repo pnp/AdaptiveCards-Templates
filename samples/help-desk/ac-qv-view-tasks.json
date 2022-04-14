@@ -63,7 +63,7 @@
                                             "items": [
                                                 {
                                                     "type": "Image",
-                                                    "url": "https://microsoft.sharepoint-df.com/teams/max2/SiteAssets/People/Lee.png"
+                                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/help-desk/assets/Lee.png"
                                                 }
                                             ]
                                         },
@@ -90,7 +90,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/2623544-200.png"
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/help-desk/assets/arrow-forward.png"
                                 }
                             ],
                             "horizontalAlignment": "Right",
@@ -138,7 +138,7 @@
                                             "items": [
                                                 {
                                                     "type": "Image",
-                                                    "url": "https://microsoft.sharepoint-df.com/teams/max2/SiteAssets/People/Patti.png"
+                                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/help-desk/assets/Patti.png"
                                                 }
                                             ]
                                         },
@@ -165,7 +165,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/2623544-200.png"
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/help-desk/assets/arrow-forward.png"
                                 }
                             ],
                             "verticalContentAlignment": "Center"
@@ -211,7 +211,7 @@
                                             "items": [
                                                 {
                                                     "type": "Image",
-                                                    "url": "https://microsoft.sharepoint-df.com/teams/max2/SiteAssets/People/Lynne.png"
+                                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/help-desk/assets/Lynne.png"
                                                 }
                                             ]
                                         },
@@ -238,7 +238,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://static.thenounproject.com/png/2623544-200.png"
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/help-desk/assets/arrow-forward.png"
                                 }
                             ],
                             "verticalContentAlignment": "Center"

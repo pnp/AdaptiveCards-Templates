@@ -53,7 +53,7 @@
                                 {
                                     "type": "Image",
                                     "style": "Person",
-                                    "url": "https://microsoft.sharepoint-df.com/_api/v2.1/shares/u!aHR0cHM6Ly9taWNyb3NvZnQuc2hhcmVwb2ludC1kZi5jb20vdGVhbXMvTUVFRGVtby9TaXRlQXNzZXRzL0Rhc2hib2FyZC9QcmFpc2UvTGVlLmpwZw/driveItem/thumbnails/0/c400x99999/content?preferNoRedirect=true&prefer=extendCacheMaxAge&clientType=modernWebPart",
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/help-desk/assets/Lee.png",
                                     "size": "Small"
                                 }
                             ]
@@ -217,7 +217,7 @@
                             "items": [
                                 {
                                     "type": "Image",
-                                    "url": "https://microsoft.sharepoint-df.com/teams/max2/SiteAssets/Images/AddIcon.svg"
+                                    "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/help-desk/assets/AddIcon.svg"
                                 }
                             ]
                         },
@@ -256,7 +256,7 @@
                                     "items": [
                                         {
                                             "type": "Image",
-                                            "url": "https://microsoft.sharepoint-df.com/teams/max2/SiteAssets/Images/AddIcon.svg"
+                                            "url": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/help-desk/assets/AddIcon.svg"
                                         }
                                     ]
                                 },

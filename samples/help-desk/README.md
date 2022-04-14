@@ -4,18 +4,17 @@
 
 Designs for creating new help desk tickets and to start processing them from the queue using Viva Cards. Three separate quick view designs.
 
-![picture of the extension in action](assets/cards.png)
-
-
 **Create a ticket**
 
-![picture of the extension in action](assets/card.png)
+![picture of the extension in action](assets/create-ticket-quick-view.png)
 
 **List tickets**
 
+![picture of the extension in action](assets/tickets-list-quick-view.png)
 
 **Details on individual ticket**
 
+![picture of the extension in action](assets/incident-details-quick-view.png)
 
 ## Compatibility
 
@@ -35,7 +34,7 @@ Designs for creating new help desk tickets and to start processing them from the
 **List tickets**
 
 <p>
-    <a href="https://adaptivecards.io/designer/index.html?card=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Fevent-schedule%2Fac-qv-event.template.json&data=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Fevent-schedule%2Fac-qv-event.template.data.json">
+    <a href="https://adaptivecards.io/designer/index.html?card=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Fhelp-desk%2Fac-qv-view-tasks.json">
         <img src="https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/assets/btn-open-in-designer.png" alt="Open in Adaptive Card Designer" />
     </a>
 </p>
@@ -43,7 +42,7 @@ Designs for creating new help desk tickets and to start processing them from the
 **Details on individual ticket**
 
 <p>
-    <a href="https://adaptivecards.io/designer/index.html?card=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Fevent-schedule%2Fac-qv-event.template.json&data=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Fevent-schedule%2Fac-qv-event.template.data.json">
+    <a href="https://adaptivecards.io/designer/index.html?card=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Fhelp-desk%2Fac-qv-view-task-details.json">
         <img src="https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/assets/btn-open-in-designer.png" alt="Open in Adaptive Card Designer" />
     </a>
 </p>
@@ -69,7 +68,7 @@ Version|Date|Comments
 
 This design is originally created for Viva Connections Dashboard cards and can be used for story telling with the out of the box **Card designer** card for Viva Connections dashboard.
 
-![picture of the extension in action](assets/dashboard-card.png)
+![picture of the extension in action](assets/cards.png)
 
 > See more details on the Viva Connections Dashboard capabilities from [Microsoft documentation](https://docs.microsoft.com/en-us/viva/connections/create-dashboard).
 
