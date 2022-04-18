@@ -1,0 +1,28 @@
+{
+    "title": "Enrollment is open!",
+    "subTitle": "What does 2022 have in store?",
+    "imageUrl": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/benefits/assets/building.png",
+    "description": "Take your pick! The past year has been limiting in more ways than one, but now is your chance to finally make a few choices for you and your family. And you have plenty of great options to choose from—we’ve even expanded some benefits to support you more fully in the year ahead! Check out some of the essential updates and enhancements we’ve made for 2022 below:",
+    "items": [
+      {
+        "title": "Perks+ Reimbursement",
+        "text": "We've increased program reimbursement amounts. That's means more money to put toward you doing you!",
+        "backgroundImageUrl": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/benefits/assets/gym.jpg",
+        "buttonText": "Learn more the Perks+ reimbursement",
+        "buttonUrl": "https://www.benefits.va.gov/benefits/programs/program-reimbursement-amounts"
+      },
+      {
+        "title": "Life insurance",
+        "text": "Prudential is providing a one-time exception for you to increase your coverage without Evidence of Insurability.",
+        "backgroundImageUrl": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/benefits/assets/outside.jpg",
+        "buttonText": "Visit the return-to-worksite toolkit",
+        "buttonUrl": "http://aka.ms/TechToolkit"
+      },
+      {
+        "title": "Your workspace assignment beginning Stage 4",
+        "text": "If you have any questions or concerns about your schedule please see genes@microsoft.com",
+        "backgroundImageUrl": "https://raw.githubusercontent.com/pnp/AdaptiveCards-Templates/main/samples/benefits/assets/outside.jpg"
+      }
+    ]
+  }
+  
