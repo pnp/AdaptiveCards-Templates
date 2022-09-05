@@ -28,7 +28,7 @@ Users can simply update the data JSON to change the display.
 
 Solution|Author(s)
 --------|---------
-employee-onboarding | [Alex Clark](https://github.com/alex-msft), Microsoft
+employee-onboarding | [Alex Clark](https://github.com/alexc-msft), Microsoft
 
 ## Version history
 

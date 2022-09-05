@@ -24,7 +24,7 @@ The Data JSON option has been leveraged to enable users without advanced knowled
 
 Solution|Author(s)
 --------|---------
-quote-of-the-day | [Alex Clark](https://github.com/alex-msft), Microsoft
+quote-of-the-day | [Alex Clark](https://github.com/alexc-msft), Microsoft
 
 ## Version history
 

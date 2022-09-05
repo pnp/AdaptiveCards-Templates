@@ -26,7 +26,7 @@ Users can simply update the data JSON to change the details of the alert.
 
 Solution|Author(s)
 --------|---------
-security-alert | [Alex Clark](https://github.com/alex-msft), Microsoft
+security-alert | [Alex Clark](https://github.com/alexc-msft), Microsoft
 
 ## Version history
 

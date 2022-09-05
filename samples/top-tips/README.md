@@ -28,7 +28,7 @@ A single actionset button has been added to the quick view to link to a page wit
 
 Solution|Author(s)
 --------|---------
-top-tips | [Alex Clark](https://github.com/alex-msft), Microsoft
+top-tips | [Alex Clark](https://github.com/alexc-msft), Microsoft
 
 ## Version history
 

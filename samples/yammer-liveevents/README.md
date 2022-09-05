@@ -26,7 +26,7 @@ The Data JSON uses an array of event objects that are displayed in the card. Sim
 
 Solution|Author(s)
 --------|---------
-yammer-livevents | [Alex Clark](https://github.com/alex-msft), Microsoft
+yammer-livevents | [Alex Clark](https://github.com/alexc-msft), Microsoft
 
 ## Version history
 
