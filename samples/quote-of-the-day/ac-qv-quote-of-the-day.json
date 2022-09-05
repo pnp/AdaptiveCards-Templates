@@ -1,0 +1,58 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "Container",
+            "style": "emphasis",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "wrap": true,
+                    "spacing": "Medium",
+                    "color": "Default",
+                    "isSubtle": false,
+                    "size": "Medium",
+                    "weight": "Default",
+                    "$data": "$quote",
+                    "text": "\"${$root.quote}\""
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "wrap": true,
+                                    "$data": "${$root.quoter}",
+                                    "text": "${$root.quoter}",
+                                    "size": "Large",
+                                    "horizontalAlignment": "Right"
+                                }
+                            ],
+                            "horizontalAlignment": "Left",
+                            "verticalContentAlignment": "Center"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "50px",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMNSURBVHhe7dpJyE1hHMfxx5whkqkMERuRxMZUWBBJoQwlG2WjrJQhU1J2FNkISWQoOysklIjIVMpcFGWIjczT93963zc9/d9zzz3n/u8/9fzqs7mL5/d0z7nnnvOcJ6SkpKSkpKSkNCndMR3bsFQ+aHJc+rthLvbjGf60+IhesI5b/2BsxkO0lra6j+2wnEBe/x1shUl/b2zBW8TF57EAXWCVvP5zmI9OMIn8rh4jLr4GOQ2tk9c/B2aRb/0I4uKvWI+OsExe/0aYHXHJONxDXC5HYiqs49ovp/V7xOUXMAjWce1fgm+Iy0+jK6zj2r8QPxGXn0FnWEf+Sdz6p+Ez4vLr6AHrTMEnuPQPxSvE5W8wDNZx7ZdT6wricjEP1vHuDzuhle9DM+LaL7+7X4jLX0BuQqzj2i+n3i3E5WIFrOPdH9ZAK7+BDrCOa38fvIY2gcWwjnd/2ACt/BGacbfn2i83FXKR0SYgE7NOXr884ZlnObRyecQcAeu01/8Fo2Ces9AmcAnNSHv9F2Ge4ZBvWpvAOlgnr78pp/8qaOVCbkqs490fTkIrf4e+sI5rv/y9PIE2gauwjnd/GI0f0CZwAD0xGSuxCbK+vhqz0R9V492frbZo5eIlnkef/Uuey0+hyhK0d39YC23wesna3BDUG+/+sAvagGU8hZzS9cS7PxyENlhZckGr58rd6H75EgagcE5AG6iKQygai/6jKByLCfzGBBSJRb+YiEKRo6UNUNUeFIl3f9gNbYCq7qLICo53f/awow1Q1QcMRK1492dLTdoAVcnd3RjUind/GAttCboRxqNWvPtzH0aqkPeJI1Er3v1Z5G2LNkgVcg8vO7aKxLs/TII2SBXHUDTe/VkuQxuorHqf0Lz7w0xoA5VxE/W+xfHuz3IY2oD1moEy8e7PXk3dhjZoUTtQNt79WWTLqbYNrYi9qBrv/iz9cBxaiUa2qco6XaPi3d+WWZClJll7i0u/4wFkE3SppagC8e5vixwReUGxCMsge3Rk6cl8i1pLvPtTUlJSUlL+/4TwF7nOber14ZhwAAAAAElFTkSuQmCC",
+                                    "horizontalAlignment": "Right",
+                                    "width": "50px",
+                                    "height": "50px"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

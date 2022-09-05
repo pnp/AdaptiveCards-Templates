@@ -1,0 +1,114 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "30px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "data:image/png;base64,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",
+                            "width": "30px",
+                            "size": "Small"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Top Tips",
+                            "wrap": true,
+                            "size": "Large",
+                            "horizontalAlignment": "Left",
+                            "weight": "Bolder"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "View our top tips tips below. From Productivity, Health and Wellbeing and more, we have plenty of tips to help you be more successful. ",
+            "wrap": true,
+            "spacing": "Medium"
+        },
+        {
+            "type": "Container"
+        },
+        {
+            "type": "ColumnSet",
+            "$data": "${$root.tips}",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "60px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "${imageUrl}",
+                            "width": "60px",
+                            "height": "60px"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": 75,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${title}",
+                            "wrap": true,
+                            "weight": "Bolder",
+                            "size": "Medium"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${tipType}",
+                            "wrap": true,
+                            "size": "Default",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${description}",
+                            "wrap": true
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch"
+                                }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                }
+            ],
+            "spacing": "Medium",
+            "separator": true,
+            "style": "emphasis"
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "View all tips",
+                    "url": "${allTipsURL}"
+                }
+            ]
+        }
+    ]
+}

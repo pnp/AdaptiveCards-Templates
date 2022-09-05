@@ -1,0 +1,114 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "30px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://th.bing.com/th/id/OIP.Ra99SnP67XVMTQgNGk4grwHaHa?pid=ImgDet&rs=1",
+                            "width": "30px",
+                            "size": "Small"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Upcoming Live Events",
+                            "wrap": true,
+                            "size": "Large",
+                            "horizontalAlignment": "Left",
+                            "weight": "Bolder"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "View our upcoming events below and click to join.",
+            "wrap": true,
+            "spacing": "Medium"
+        },
+        {
+            "type": "Container"
+        },
+        {
+            "type": "ColumnSet",
+            "$data": "${$root.events}",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 75,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${title}",
+                            "wrap": true,
+                            "weight": "Bolder",
+                            "size": "Medium"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${date}",
+                            "wrap": true,
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${description}",
+                            "wrap": true
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "ActionSet",
+                                            "actions": [
+                                                {
+                                                    "type": "Action.OpenUrl",
+                                                    "title": "Join Event",
+                                                    "url": "${link}"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "80px",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "${imageUrl}",
+                            "width": "80px",
+                            "height": "80px"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Medium",
+            "separator": true
+        }
+    ]
+}

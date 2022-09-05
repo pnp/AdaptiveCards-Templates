@@ -1,0 +1,20 @@
+{
+    "events": [
+        {
+             "title": "Tech & Data Live Event 2",
+    "date": "19/02/2022 11:00",
+    "description": "Come and join us for February's Tech & Data live event.",
+    "imageUrl": "https://th.bing.com/th/id/R.5f2827ad1f6f4eaef168f0e40994b3ea?rik=Gx4AYAaNNxicig&riu=http%3a%2f%2fst.depositphotos.com%2f1000423%2f1374%2fi%2f950%2fdepositphotos_13742814-stock-photo-touch-screen-technology.jpg&ehk=3m447emuJ3ktX3%2ffTV9fMKNNwJhMqFTvFRrdTE8nG4U%3d&risl=&pid=ImgRaw&r=0",
+    "link": "https://web.yammer.com/main/events"
+        },
+        {
+  "title": "Leadership",
+    "date": "28/02/2022 11:00",
+    "description": "Come and join the monthly roundtable with the Senior Leadership Team.",
+    "imageUrl": "https://th.bing.com/th/id/OIP.ggG8e1d1KXwsiUQTzEmQ5wHaFj?pid=ImgDet&rs=1",
+    "link": "https://web.yammer.com/main/events"
+        }
+    ]
+   
+  
+}

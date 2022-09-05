@@ -1,0 +1,63 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "style": "attention",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "40px",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAC4jAAAuIwF4pT92AAAFQUlEQVR4nO2d73GjOBiHn9zs99V1QAdxB6frgA4uW8FSgjvwbAUuYdOBcxXYqQB3YF8F3AdwglkEEki8Yq1nRjMxduyf9CDxx1g8VVVFIh7+kA6QuCcJiYwv7QdPT09SOaagR55/WyCDF9qbjS8Dr4sBRd3wG+AZyJq/XTgBZ+C9+fsNuM5OFoqqqj5KJOTADiiBKlApm8/IF6nRCHcOIhGigT1wIZwEU7k0n60D19FILEIUUBC2J0zpOUWTbTGkhShgi0xvcOk1WxYSIylkS9wiTGKCIiFEE9fQ5FpKAm5jlhSiqDeY0g3qq+wIMIwtJUSz7l6xWG9ZQkiBfMOFLoWntgoqRPF7DVFjZY+HISyUEAUckW+kpcuRmVJCCFE8pgwvUnwLUTy2jNlSfApRJBmzpbQdPLVFOH4fooAD7qfDffJKfVr93DzOqE/T5yJpak7A3zic4r/rDDN6yB65NfEndeObyJrXSOXbW7YhgJchq1hJZSVXmsI25FwhWrCSP21DtjgI5tU2AecIUcieDslsQnbIBPOWWGzk5wjZCVbuaBPQwFEw924s3FQhWrBSVhUbQHJFqhgZutoOXK7L2ju8NgT/Cf2vD6zbzlbIlmnjd6Imw/KbRxshCvg+PUui4TsWG3gbIYXNGyVGUVgcm4wJUaTe4ZPRXjIm5GXsDRJOKOo2NTImJPUO/wy26ZAQTdqzCkHGwHHJkJB/fCdJfGBs2yEhuf8ciYbc9IRJSE7amIdEYZBiEvJXqCSJD3rbeKiHJMKS9y3sE5KR9q6WIKNns9AnZBM4SOIT3V2QhMiy6S7oE/IcPkei4Ze2Nm1DEsuQdRekIUuWTXdBmlojMrpCtESIB0e3H6QeEhlJSGQkIZGRhETGmoR8FfrfRVmTEC30v4uyJiEbpjWsZk0Huz0XW0telDxWDhOqeIgg91AZvfpdOuBY2TvI2EeQd7aQYwQhx8qB4eFLE3/PqJq2vnPQNwnmmfjHXN2UE/WklrefG3xlXduMc3dBn5B31vOd+ob1NH4f790FfXtZp/A5Eg2n7oK+iQMU9dR2ifD8CVzbDvp6yJWesS3hnTM9sz2YDgxfAwZJ1Lz2LTQJ+TdcjkRDbxsPTT5zYR3X9565n3wmE8rhwpV6+wFgPfnMHvkDJ1MpMf+6SzXPlRHkNJV9O7DtxAE6guCjlRkh1pVKt0O6zOQQ21rmIuNGbFLKbkAXIUUEFTBWxIGYVqyiG85FiCKeudpfjM09zksE+SsMO0quk89sI6hI1VcRB1QE+SsM02u4ClHI95KjKZwDR+E6XDCsVK6zAV2BHw4VD8E1kveYww+rDA7zZZXIrV0HmxqPcBDMXw4Fmzpf1jeH1ybusW+7FU3xNxep3LvRYCudBDO3CWggF8pcEngSTJA7pXKwDdjDQSiztgm35omUC5eQa8nqQwjInSOyrihyMvYOGb0JUcgdbB2I97qsI45nFdoO5twdAeTvkHClvnLj1DzeNEUJZIEJd0YArL+gskUhf1oihuLcM274GrLaKB5bymQZEEYIPK6UWTIgnBBIt82bREghNwrkGyt0KTy11SJCIN161ZqlhEDdnXfIN6KvsmPFNyduo1l3b/HeK9pICLmxRf7rYJdy4Te9wX0bRfxibiJUgPr/grSQG4p6T6VEXkB7aCpY+NRLLELaaOp9eolec2k+Wweuo5EYhbTJqfdmQvacsvmMfJEajeDzbG9oFJ+/qn2m/qnBxvE9TtQ/V3jn81e719nJPHLnIHIhQ+iR598WyOAFo5CEPGuafOYhSEIi43+jAzsS0lEVHwAAAABJRU5ErkJggg==",
+                                    "height": "30px",
+                                    "width": "30px"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Security Alert",
+                                    "wrap": true,
+                                    "size": "Large",
+                                    "weight": "Bolder"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "text": "${AlertTitle}",
+            "horizontalAlignment": "Center",
+            "color": "Attention"
+        },
+        {
+            "type": "TextBlock",
+            "text": "${AlertDescription}",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.OpenUrl",
+            "title": "${AlertLinkText}",
+            "url": "${AlertLinkUrl}"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3"
+}
