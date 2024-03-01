@@ -4,10 +4,6 @@
 
 A Viva Connections adaptive card made for an airport to show the recent trend of daily passenger numbers for arrivals, transfers, and departures. This card is currently static and would ideally be updated to connect to real time data. It's provided here as a design template. Clicking on each of the buttons across the middle show the data for each view: an A/B/C "busy-ness" rating, number of departing passengers in thousands, number of transferring passengers, and number of arriving passengers.
 
-![passenger numbers adaptive card](https://github.com/pnp/AdaptiveCards-Templates/assets/56914706/75e2b1bd-30fa-47f6-bc50-2a2dcbe2041e)
-
-![passenger numbers adaptive card departures](https://github.com/pnp/AdaptiveCards-Templates/assets/56914706/54dd3cf1-0b64-47d7-b711-2ffaf62324bc)
-
 ## Compatibility
 
 ![Adaptive Card Version](https://img.shields.io/badge/Adaptive%20Card%20Version-1.3-green.svg)
@@ -40,7 +36,11 @@ Version|Date|Comments
 
 This design is originally created for Viva Connections Dashboard cards and can be used for story telling with the out of the box **Card designer** card for Viva Connections dashboard.
 
-![picture of the extension in action](assets/dashboard-card.png)
+![picture of the card installed](assets/dashboard-card.png)
+
+![picture of the quick view default view](assets/card.png)
+
+![picture of the quick view departures view](assets/card-numbers.png)
 
 > See more details on the Viva Connections Dashboard capabilities from [Microsoft documentation](https://docs.microsoft.com/en-us/viva/connections/create-dashboard).
 
@@ -50,9 +50,9 @@ Steps to configure this card with *Card designer* as follows:
 - **Template Type** - Image
 - **Card size** - Medium
 - **Title** - *Passenger Numbers*
-- **Icon** - Icon with the preferred selection
+- **Icon** - Icon with the preferred selection, suggest airplane
 - **Heading** - *Click to show the recent trend*
-- **Image** - Upload your choice.
+- **Image** - Upload your choice or use landing.jpg in assets folder
 - **Card action** - Show the quick view
 - **Primary Button** - Off
 - **Secondary Button** - Off
@@ -67,3 +67,6 @@ We do not support samples, but we this community is always willing to help, and 
 You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.
 
 <img src="https://pnptelemetry.azurewebsites.net/adaptivecards-templates/samples/employee-onboarding" />
+
+
+[def]: http
