@@ -10,6 +10,10 @@ Design for presenting product information in image carousel style format
 
 ![Adaptive Card Version](https://img.shields.io/badge/Adaptive%20Card%20Version-1.3-green.svg)
 
+## Advance API Features
+
+![Advance API Features No](https://img.shields.io/badge/Advance_API_Features-No-orange)
+
 ## Designer
 
 <p>

@@ -14,6 +14,10 @@ Users can simply update the data JSON to change the details of the alert.
 
 ![Adaptive Card Version](https://img.shields.io/badge/Adaptive%20Card%20Version-1.3-green.svg)
 
+## Advance API Features
+
+![Advance API Features No](https://img.shields.io/badge/Advance_API_Features-No-orange)
+
 ## Designer
 
 <p>

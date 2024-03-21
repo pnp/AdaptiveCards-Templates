@@ -8,6 +8,10 @@ A Viva Connections adaptive card made for an airport to show the recent trend of
 
 ![Adaptive Card Version](https://img.shields.io/badge/Adaptive%20Card%20Version-1.3-green.svg)
 
+## Advance API Features
+
+![Advance API Features No](https://img.shields.io/badge/Advance_API_Features-No-orange)
+
 ## Designer
 
 <p>
