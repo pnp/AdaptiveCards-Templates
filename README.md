@@ -1,11 +1,10 @@
 # Adaptive Card templates - design examples
 
-Samples on different Adaptive Card designs demonstrating the art of possible for inspiration and innovation. Shared designs can be used as such or as a starting point for your own designs.
+Samples on different Adaptive Card designs for Viva Connections, demonstrating the art of possible for inspiration and innovation. Shared designs can be used as such or as a starting point for your own designs.
 
 Here's a teaser of some of the provided designs.
 
 ![pic of provided samples](assets/readmeimage.png)
-
 
 ## Additional resources
 
@@ -13,6 +12,14 @@ Here's a teaser of some of the provided designs.
 * [Adaptive Cards Designer](https://adaptivecards.io/)
 * [Made with Cards](https://madewithcards.io/)
 * [Designing Viva Connections custom cards for your dashboard](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/viva/design/design-intro)
+
+## Advance API Features
+
+A number of the samples support the 'Advance API Features' Card Designer functionality. Samples that support the Advance API Features are clearly marked in the README files. 
+
+This functionality allows dashboard editors to call the Microsoft Graph and SharePoint REST APIs without actual code.
+
+Read the [Overview of Viva Connections Card Designer advance API features](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/viva/features/card-designer/card-designer-api-support) documentation to learn more.
 
 ## Authors
 
