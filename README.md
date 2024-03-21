@@ -12,6 +12,7 @@ Here's a teaser of some of the provided designs.
 * [Adaptive Cards Designer](https://adaptivecards.io/)
 * [Made with Cards](https://madewithcards.io/)
 * [Designing Viva Connections custom cards for your dashboard](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/viva/design/design-intro)
+* [Card Designer Advance API Features](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/viva/features/card-designer/card-designer-api-support)
 
 ## Advance API Features
 
