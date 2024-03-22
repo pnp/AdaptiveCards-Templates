@@ -1,0 +1,122 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "System",
+                            "wrap": true,
+                            "horizontalAlignment": "Left",
+                            "size": "Medium",
+                            "weight": "Bolder"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Status",
+                            "wrap": true,
+                            "horizontalAlignment": "Center",
+                            "size": "Medium",
+                            "weight": "Bolder"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "separator": true
+        },
+        {
+            "type": "ColumnSet",
+            "$data": "${$root.value}",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${SystemName}",
+                                            "wrap": true,
+                                            "size": "Medium",
+                                            "horizontalAlignment": "Left"
+                                        }
+                                    ],
+                                    "minHeight": "30px",
+                                    "verticalContentAlignment": "Center"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${Status}",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Center",
+                                            "size": "Medium",
+                                            "weight": "Bolder",
+                                            "color": "Light"
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Center",
+                                    "backgroundImage": {
+                                        "url": "${if(equals(Status,'Down'), 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAACCAYAAACDvVapAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAWSURBVBhXY3wro/KfgUTABKVJAAwMAOHpAjALCTpJAAAAAElFTkSuQmCC',if(equals(Status,'Issue'),'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAACCAYAAACDvVapAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAATSURBVBhXY/i/hO0/qZgMTWz/AVWSRRGKZMcaAAAAAElFTkSuQmCC','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAACCAYAAACDvVapAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAATSURBVBhXY1Da6POfVEyGJp//AEoBNw2vtQkJAAAAAElFTkSuQmCC'))}"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Issues",
+            "wrap": true,
+            "size": "Medium",
+            "separator": true,
+            "weight": "Bolder",
+            "spacing": "Medium"
+        },
+        {
+            "type": "ColumnSet",
+            "$data": "${$root.value}",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "${if(equals(StatusDescription,null), '', StatusDescription)}",
+                            "wrap": true
+                        }
+                    ],
+                    "separator": true
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5"
+}
