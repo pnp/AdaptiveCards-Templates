@@ -1,0 +1,104 @@
+{
+    "schema": "http=//adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "${title}",
+        "wrap": true,
+        "horizontalAlignment": "left",
+        "fontType": "Default",
+        "weight": "bolder",
+        "size": "extraLarge",
+        "spacing": "extraLarge"
+      },
+      {
+        "type": "Container",
+        "backgroundImage": {
+          "url": "${imageUrl}",
+          "horizontalAlignment": "Center",
+          "verticalAlignment": "Center"
+        },
+        "bleed": true,
+        "height": "stretch",
+        "minHeight": "240px",
+        "horizontalAlignment": "center",
+        "spacing": "Medium"
+      },
+      {
+        "type": "TextBlock",
+        "text": "${subTitle}",
+        "wrap": true,
+        "horizontalAlignment": "Left",
+        "fontType": "Default",
+        "weight": "Bolder",
+        "spacing": "Large"
+      },
+      {
+        "type": "TextBlock",
+        "text": "${description}",
+        "wrap": true,
+        "horizontalAlignment": "Left",
+        "fontType": "Default"
+      },
+      {
+        "type": "Container",
+        "$data": "${items}",
+        "spacing": "Medium",
+        "style": "emphasis",
+        "items": [
+          {
+            "type": "TextBlock",
+            "text": "${title}",
+            "wrap": true,
+            "weight": "Bolder",
+            "size": "Medium"
+          },
+          {
+            "type": "Container",
+            "items": [
+              {
+                "type": "ColumnSet",
+                "columns": [
+                  {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                      {
+                        "type": "TextBlock",
+                        "text": "${text}",
+                        "wrap": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Column",
+                    "width": "80px",
+                    "minHeight": "80px",
+                    "backgroundImage": {
+                      "url": "${backgroundImageUrl}"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ActionSet",
+            "$when": "${!!buttonText}",
+            "actions": [
+              {
+                "type": "Action.OpenUrl",
+                "title": "${buttonText}",
+                "url": "${buttonUrl}"
+              }
+            ],
+            "spacing": "Medium"
+          }
+        ]
+      }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+  }
+  
