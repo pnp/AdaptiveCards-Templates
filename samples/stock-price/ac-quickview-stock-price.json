@@ -1,0 +1,101 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "size": "Medium",
+                            "weight": "Default",
+                            "text": "${CompanyName}"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${Symbol}",
+                            "wrap": true,
+                            "weight": "Lighter"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "{{DATE(${lastRefresh}, SHORT)}} {{TIME(${lastRefresh})}}",
+                            "wrap": true
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "width": "20px",
+                                            "height": "20px",
+                                            "url": "${if(Price > OpeningPrice,'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAABHCAYAAABVsFofAAAACXBIWXMAAC4jAAAuIwF4pT92AAABcklEQVR4nO3bS07DQBBFUYxYYSaskQlbdEY1i6/7U592690hSLjq0GogCsd5nl/qc9/VA6yccCDhQMKBhAMJBxIOJBxIOJBwIOFAwoGEAwkHEg4kHOjn6hPH/2/WDPRq25EywOvv48erT87dy5ClL1NW4yxdJU7rqSg7PVU4vQuXAFXgjC6aDpSNM7tgKpAuZCgTx+u7nnZ6snC8F0oBysCJWiQcKBoneoHQr68LGYrEybo4w54ThZP9C1vI8yJwqv4Wcn+uN071O6Fcn68LGfLEqT41ltscXjirwFgu83jgrAZjTc81i7MqjDU13wzO6jDW8Jz6aQWN4jzl1FhD847gPA3G6p67F+epMFbX/D04T4exmvfQhQy14uxyaqymfVpwdoOxbve6w9kVxsL9CGd3GOtyT13IkHAg4UDCgYQDEU7KOzkX6HLPu5OzOxDud+if7q/TnQMJBxIOJBxIOJBwIOFAwoGEAwkHEg4kHEg40BsrSD5ZMb+LTwAAAABJRU5ErkJggg==','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAABHCAYAAABVsFofAAAACXBIWXMAAC4jAAAuIwF4pT92AAAE2mlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgOS4xLWMwMDIgNzkuZGJhM2RhMywgMjAyMy8xMi8xMy0wNTowNjo0OSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI1LjYgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyNC0wMy0yMVQxODo1MzozOFoiIHhtcDpNb2RpZnlEYXRlPSIyMDI0LTAzLTI0VDIwOjA5OjIxWiIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNC0wMy0yNFQyMDowOToyMVoiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmFlNzM4Y2M0LTVjZWMtMDE0My05NWE3LWNmN2Q5YmNhOWZkMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDphZTczOGNjNC01Y2VjLTAxNDMtOTVhNy1jZjdkOWJjYTlmZDEiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDphZTczOGNjNC01Y2VjLTAxNDMtOTVhNy1jZjdkOWJjYTlmZDEiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmFlNzM4Y2M0LTVjZWMtMDE0My05NWE3LWNmN2Q5YmNhOWZkMSIgc3RFdnQ6d2hlbj0iMjAyNC0wMy0yMVQxODo1MzozOFoiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNS42IChXaW5kb3dzKSIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6n4mPvAAABdElEQVR4nO2bSW7DMBAEySAvyP/fmC8oJ9/C4jYLRXSdDAgwZ8rDlijA9XmeIv7nK7uAk5EcQHIAyQEkB5AcQHIAyQEkB5AcQHIAyQEkB/huXfit9fPx5mN7LaWUn8abid7k3CymlE5/JOd2MR+afSpzAMkBJAeQHEByAJJT4dpNNPvsTc7tgrC/kW11q6BuX6OZc5ugoX4UyMCMnFumZ7iP2cl5u6Cp+le21VsFTde9mjlvE7RUrwIZ2JHzlulZrnN3ck4XtFWfxbY6VdB2XVaZc5ogk3osA/kUQWZ16G4FWMvJnh7T9T0mJ0uQ+bpe2ypakMt6npkTJchtHQUy4C3He3pcvz9icrwacN+2UdvKupGQPIvMHKuGwu6ECmQgWs7urx76/JQxOasNhj95Z22r2UZTjiSZmTPacNphVoEMZMvpTUXqK5Cqfwe3yZ6co5EcQHIAyQEkB5AcQHIAyQEkB5AcQHIAyQEkB5AcQHIAyQH+AIT/DrlkS37QAAAAAElFTkSuQmCC')}"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${formatNumber(Price, 2)} ${Currency}",
+                                            "wrap": true,
+                                            "size": "ExtraLarge"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "High",
+                                            "wrap": true,
+                                            "weight": "Bolder"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Low",
+                                            "wrap": true,
+                                            "weight": "Bolder"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${formatNumber(HighestPrice, 2)}",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Right"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "${formatNumber(LowestPrice, 2)}",
+                                            "wrap": true,
+                                            "horizontalAlignment": "Left"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "$data": "${$root.value}"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5"
+}

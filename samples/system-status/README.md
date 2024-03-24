@@ -2,7 +2,7 @@
 
 ## Summary
 
-Simple card that leverages the Advance API Features functionality of the Card Designer to display the status of IT Systems. It uses a SharePoint as the backend and each list item represents a separate system.
+Simple card that leverages the Advance API Features functionality of the Card Designer to display the status of IT Systems. It uses a SharePoint list as the backend and each list item represents a separate system.
 
 IT Admins would be responsible for maintaining the list and updating statuses and/or a process would be implemented to update them automatically.
 
