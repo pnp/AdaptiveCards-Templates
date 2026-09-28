@@ -65,4 +65,4 @@ We do not support samples, but we this community is always willing to help, and 
 
 You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.
 
-<img src="https://pnptelemetry.azurewebsites.net/adaptivecards-templates/samples/timeline-holidays" />
+<img src="https://m365-visitor-stats.azurewebsites.net/adaptivecards-templates/samples/timeline-holidays" />
