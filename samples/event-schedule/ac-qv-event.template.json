@@ -121,6 +121,42 @@
                     "weight": "Bolder",
                     "spacing": "Medium"
                 },
+                     {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": 15,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Time",
+                                    "wrap": true,
+                                    "size": "Small",
+                                    "color": "Accent",
+                                    "isSubtle": true,
+                                    "weight": "Bolder"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": 65,
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Description",
+                                    "wrap": true,
+                                    "size": "Small",
+                                    "color": "Accent",
+                                    "isSubtle": true,
+                                    "weight": "Bolder"
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "Medium"
+                },
                 {
                     "type": "ColumnSet",
                     "$data": "${$root.days[0].entries}",
