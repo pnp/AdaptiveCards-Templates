@@ -67,4 +67,5 @@ We do not support samples, but we this community is always willing to help, and 
 
 You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.
 
-<img src="https://m365-visitor-stats.azurewebsites.net/adaptivecards-templates/samples/readme-template" />
+<!-- Every sample README must end with this image. Replace sample-folder so the URL suffix matches the sample's repository path under samples/. -->
+<img src="https://m365-visitor-stats.azurewebsites.net/adaptivecards-templates/samples/sample-folder" />
