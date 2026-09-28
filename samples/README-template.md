@@ -12,12 +12,12 @@
 
 Short summary on functionality and used technologies.
 
-![picture of the extension in action](assets/preview.png)
+![picture of the sample in action](assets/preview.png)
 
-> Please provide a high-quality screenshot of your extension below. It should be stored in a folder called `assets`. 
+> Please provide a high-quality screenshot of your sample below. It should be stored in a folder called `assets`.
 > If possible, use a resolution of 1920x1080. 
-> If your extension requires the user to configure it, please use a screenshot of the extension as it appears after it has been configured.
-> You can add as many screen shots as you'd like to help users understand your extension without having to download it and install it.
+> If your sample requires configuration, use a screenshot of the sample as it appears after it has been configured.
+> You can add as many screenshots as needed to help users understand the sample without having to download it.
 > DELETE THIS PARAGRAPH BEFORE SUBMITTING
 
 ## Compatibility
@@ -26,7 +26,7 @@ Short summary on functionality and used technologies.
 
 ## Designer
 
-> Update the URL query parameter with the right sample folder and json file name
+> Update the URL query parameter with the correct sample folder and JSON file name.
 
 <p>
     <a href="https://adaptivecards.io/designer/index.html?card=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Fvisual-list%2Fac-qv-cafe.json">
@@ -50,8 +50,8 @@ Version|Date|Comments
 
 ## Features
 
-Description of the extension with possible additional details than in short summary.
-This extension illustrates the following concepts:
+Provide more details about the sample than in the short summary.
+This sample illustrates the following concepts:
 
 - topic 1
 - topic 2
